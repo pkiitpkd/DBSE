@@ -4,6 +4,7 @@
         "name": "Prof. Jagadeesh Bayry",
         "role": "Professor & Head",
         "field": "Immunology",
+        "email": "jbayry@iitpkd.ac.in",
         "image": "images/JB.jpg",
         "bio": "Research focused on immune regulation, dendritic cell biology, and antibody therapy."
     },
@@ -12,6 +13,7 @@
         "name": "Dr. Prasun Kumar",
         "role": "Assistant Professor",
         "field": "Structural Bioinformatics",
+        "email": "pk@iitpkd.ac.in",
         "image": "images/PK.jpg",
         "bio": "Exploring protein-protein interactions and machine learning in biology."
     }
