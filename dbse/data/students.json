@@ -19,5 +19,19 @@
         "program": "M.Tech", 
         "supervisor": "Dr. Prasun Kumar", 
         "area": "Protein Design" 
+    },
+    { 
+        "name": "Anna Rose Antony.", 
+        "year": 2025, 
+        "program": "PhD", 
+        "supervisor": "Dr. Prasun Kumar", 
+        "area": "Dendritic Cells" 
+    },
+    { 
+        "name": "Kiran S", 
+        "year": 2024, 
+        "program": "PhD", 
+        "supervisor": "Dr. Prasanna Bhat", 
+        "area": "Protein Design" 
     }
 ]
