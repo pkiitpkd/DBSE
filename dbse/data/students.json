@@ -1,14 +1,23 @@
 [
-    {
-        "name": "Arjun Sharma",
-        "program": "PhD",
-        "supervisor": "Prof. Jagadeesh Bayry",
-        "area": "T-cell Regulation"
+    { 
+        "name": "Akshay P.", 
+        "year": 2023, 
+        "program": "PhD", 
+        "supervisor": "Prof. Jagadeesh Bayry", 
+        "area": "Immune Checkpoints" 
     },
-    {
-        "name": "Lata M.",
-        "program": "M.Tech",
-        "supervisor": "Dr. Prasun Kumar",
-        "area": "Protein Folding AI"
+    { 
+        "name": "Rahul S.", 
+        "year": 2023, 
+        "program": "PhD", 
+        "supervisor": "Prof. Jagadeesh Bayry", 
+        "area": "Dendritic Cells" 
+    },
+    { 
+        "name": "Anita Rao", 
+        "year": 2024, 
+        "program": "M.Tech", 
+        "supervisor": "Dr. Prasun Kumar", 
+        "area": "Protein Design" 
     }
 ]
