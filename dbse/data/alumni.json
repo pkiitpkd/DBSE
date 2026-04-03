@@ -1,0 +1,14 @@
+[
+    { 
+        "name": "Dr. Kavya M.", 
+        "year": 2021, 
+        "thesis": "Neural Bio-interfaces", 
+        "currentPosition": "Senior Scientist at BioTech Inc." 
+    },
+    { 
+        "name": "Rohan V.", 
+        "year": 2022, 
+        "thesis": "Viral Capsid Modeling", 
+        "currentPosition": "PostDoc at Cambridge" 
+    }
+]
