@@ -14,7 +14,7 @@
         "name": "Dr. Prasanna Bhat",
         "category": "core",
         "role": "Assistant Professor",
-        "email": "email@univ.edu",
+        "email": "prasannabhat@iitpkd.ac.in",
         "image": "images/PB.jpg",
         "field": "Bio-Chemistry",
         "bio": "Expert in secondary biological studies..."
@@ -31,11 +31,11 @@
     },
     {
         "id": 4,
-        "name": "Dr. Sivakumar VG",
+        "name": "Dr. Sivakumar Vadivel Gnanasundram",
         "category": "core",
         "role": "Assistant Professor",
-        "email": "email@univ.edu",
-        "image": "images/PB.jpg",
+        "email": "sivavg@iitpkd.ac.in",
+        "image": "images/SVG.jpg",
         "field": "Bio-Chemistry",
         "bio": "Expert in secondary biological studies..."
     },
@@ -44,7 +44,7 @@
         "name": "Dr. Sushabhan Sadhukhan",
         "category": "secondary",
         "role": "Associate Professor",
-        "email": "email@univ.edu",
+        "email": "sushabhan@iitpkd.ac.in",
         "image": "images/SS.jpg",
         "field": "Bio-Chemistry",
         "bio": "Expert in secondary biological studies..."
@@ -54,7 +54,7 @@
         "name": "Dr. Bibhu Ranjan Sarangi",
         "category": "secondary",
         "role": "Associate Professor",
-        "email": "email@univ.edu",
+        "email": "bibhu@iitpkd.ac.in",
         "image": "images/BRS.jpg",
         "field": "Bio-Chemistry",
         "bio": "Expert in secondary biological studies..."
@@ -64,7 +64,7 @@
         "name": "Dr. Abdul Rasheed P",
         "category": "fellow",
         "role": "Ramanujan Fellow",
-        "email": "ar@iitpkd.ac.in",
+        "email": "abdulrasheed@iitpkd.ac.in",
         "image": "images/AR.jpg",
         "field": "Sensor Design",
         "bio": "Focus on diagnostic sensor platforms..."
