@@ -11,11 +11,51 @@
     },
     {
         "id": 2,
-        "name": "Dr. Secondary Professor",
-        "category": "secondary",
-        "role": "Adjunct Professor",
+        "name": "Dr. Prasanna Bhat",
+        "category": "core",
+        "role": "Assistant Professor",
         "email": "email@univ.edu",
-        "image": "images/photo.jpg",
+        "image": "images/PB.jpg",
+        "field": "Bio-Chemistry",
+        "bio": "Expert in secondary biological studies..."
+    },
+    {
+        "id": 3,
+        "name": "Dr. Prasun Kumar",
+        "category": "core",
+        "role": "Assistant Professor",
+        "email": "pk@iitpkd.ac.in",
+        "image": "images/PK.jpg",
+        "field": "Bio-Chemistry",
+        "bio": "Expert in secondary biological studies..."
+    },
+    {
+        "id": 4,
+        "name": "Dr. Sivakumar VG",
+        "category": "core",
+        "role": "Assistant Professor",
+        "email": "email@univ.edu",
+        "image": "images/PB.jpg",
+        "field": "Bio-Chemistry",
+        "bio": "Expert in secondary biological studies..."
+    },
+    {
+        "id": 5,
+        "name": "Dr. Sushabhan Sadhukhan",
+        "category": "secondary",
+        "role": "Associate Professor",
+        "email": "email@univ.edu",
+        "image": "images/SS.jpg",
+        "field": "Bio-Chemistry",
+        "bio": "Expert in secondary biological studies..."
+    },
+    {
+        "id": 6,
+        "name": "Dr. Bibhu Ranjan Sarangi",
+        "category": "secondary",
+        "role": "Associate Professor",
+        "email": "email@univ.edu",
+        "image": "images/BRS.jpg",
         "field": "Bio-Chemistry",
         "bio": "Expert in secondary biological studies..."
     },
