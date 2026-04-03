@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "name": "Prof. Jagadeesh Bayry",
+        "role": "Professor & Head",
+        "field": "Immunology",
+        "image": "images/JB.jpg",
+        "bio": "Research focused on immune regulation, dendritic cell biology, and antibody therapy."
+    },
+    {
+        "id": 2,
+        "name": "Dr. Prasun Kumar",
+        "role": "Assistant Professor",
+        "field": "Structural Bioinformatics",
+        "image": "images/PK.jpg",
+        "bio": "Exploring protein-protein interactions and machine learning in biology."
+    }
+]

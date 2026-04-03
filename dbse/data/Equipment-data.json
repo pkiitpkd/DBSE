@@ -1,0 +1,17 @@
+[
+    {
+        "name": "HPC GPU Cluster (NVIDIA A100)",
+        "cat": "Computation",
+        "status": "Operational"
+    },
+    {
+        "name": "Flow Cytometer (BD FACS)",
+        "cat": "Cell Biology",
+        "status": "Operational"
+    },
+    {
+        "name": "FPLC System",
+        "cat": "Biochemistry",
+        "status": "Maintenance"
+    }
+]
