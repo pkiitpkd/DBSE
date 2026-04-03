@@ -2,19 +2,31 @@
     {
         "id": 1,
         "name": "Prof. Jagadeesh Bayry",
+        "category": "core",
         "role": "Professor & Head",
-        "field": "Immunology",
         "email": "jbayry@iitpkd.ac.in",
         "image": "images/JB.jpg",
-        "bio": "Research focused on immune regulation, dendritic cell biology, and antibody therapy."
+        "field": "Immunology",
+        "bio": "Research focused on immune regulation..."
     },
     {
         "id": 2,
-        "name": "Dr. Prasun Kumar",
-        "role": "Assistant Professor",
-        "field": "Structural Bioinformatics",
-        "email": "pk@iitpkd.ac.in",
-        "image": "images/PK.jpg",
-        "bio": "Exploring protein-protein interactions and machine learning in biology."
+        "name": "Dr. Secondary Professor",
+        "category": "secondary",
+        "role": "Adjunct Professor",
+        "email": "email@univ.edu",
+        "image": "images/photo.jpg",
+        "field": "Bio-Chemistry",
+        "bio": "Expert in secondary biological studies..."
+    },
+    {
+        "id": 7,
+        "name": "Dr. Abdul Rasheed P",
+        "category": "fellow",
+        "role": "Ramanujan Fellow",
+        "email": "ar@iitpkd.ac.in",
+        "image": "images/AR.jpg",
+        "field": "Sensor Design",
+        "bio": "Focus on diagnostic sensor platforms..."
     }
 ]
