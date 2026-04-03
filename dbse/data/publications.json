@@ -1,14 +1,16 @@
 [
     {
-        "title": "Machine Learning for Protein Engineering: A Review",
-        "authors": "Kumar P., et al.",
+        "title": "Machine Learning for Protein Engineering",
+        "authors": "Prasun Kumar, et al.",
+        "faculty": "Dr. Prasun Kumar",
         "journal": "Nature Reviews Bio",
-        "year": "2023"
+        "year": 2023
     },
     {
         "title": "Immunomodulation by Intravenous Immunoglobulin",
-        "authors": "Bayry J., et al.",
+        "authors": "Jagadeesh Bayry, et al.",
+        "faculty": "Prof. Jagadeesh Bayry",
         "journal": "Science Immunology",
-        "year": "2024"
+        "year": 2024
     }
 ]
