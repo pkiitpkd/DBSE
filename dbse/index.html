@@ -13,8 +13,10 @@
         .page-section.active { display: block; animation: fadeIn 0.5s ease-out; }
         @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
         .glass-nav { background: rgba(255, 255, 255, 0.8); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); }
-        .no-scrollbar::-webkit-scrollbar { display: none; }
         .active-link { color: #4f46e5; border-bottom: 2px solid #4f46e5; }
+        .section-divider { position: relative; padding-bottom: 1rem; margin-bottom: 2rem; }
+        .section-divider::after { content: ''; position: absolute; left: 0; bottom: 0; width: 60px; height: 4px; background: #4f46e5; border-radius: 2px; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
     </style>
 </head>
 <body class="bg-slate-50 text-slate-900">
@@ -24,15 +26,14 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-20 items-center">
                 <div class="flex items-center cursor-pointer group" onclick="showPage('home')">
-                    <div class="bg-indigo-600 p-2.5 rounded-xl text-white mr-3 shadow-lg shadow-indigo-200 group-hover:rotate-6 transition-transform">
+                    <div class="bg-indigo-600 p-2.5 rounded-xl text-white mr-3 shadow-lg group-hover:rotate-6 transition-transform">
                         <i data-lucide="flask-conical"></i>
                     </div>
-                    <div class="flex flex-col">
-                        <span class="font-extrabold text-lg leading-none tracking-tight text-slate-800">BS&E DEPARTMENT</span>
+                    <div class="flex flex-col text-left">
+                        <span class="font-extrabold text-lg leading-none tracking-tight">BS&E DEPARTMENT</span>
                         <span class="text-[9px] font-bold text-indigo-600 tracking-[0.2em] uppercase">Academic Excellence</span>
                     </div>
                 </div>
-                
                 <div class="hidden lg:flex space-x-6">
                     <button onclick="showPage('home')" class="nav-btn py-2 text-sm font-bold text-slate-600 hover:text-indigo-600 transition-colors">Home</button>
                     <button onclick="showPage('faculty')" class="nav-btn py-2 text-sm font-bold text-slate-600 hover:text-indigo-600 transition-colors">Faculty</button>
@@ -48,49 +49,57 @@
     <main>
         <!-- HOME PAGE -->
         <section id="home" class="page-section active">
-            <div class="relative h-[400px] flex items-center justify-center bg-slate-900">
+            <div class="relative h-[350px] flex items-center justify-center bg-slate-900">
                 <img src="https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&q=80&w=2000" class="absolute inset-0 w-full h-full object-cover opacity-40">
                 <div class="relative z-10 text-center px-6">
-                    <h1 class="text-4xl md:text-6xl font-black text-white mb-4 uppercase tracking-tighter">Biological Sciences and Engineering</h1>
-                    <p class="text-indigo-200 text-lg md:text-xl font-light italic">"Advancing the frontiers of life through engineering rigor."</p>
+                    <h1 class="text-4xl md:text-5xl font-black text-white uppercase tracking-tight">Biological Sciences and Engineering</h1>
+                    <p class="text-indigo-200 mt-2 italic">Indian Institute of Technology</p>
                 </div>
             </div>
-            <div class="max-w-6xl mx-auto px-4 py-20" id="hod-container"></div>
+            <div class="max-w-6xl mx-auto px-4 py-16" id="hod-container"></div>
         </section>
 
-        <!-- FACULTY DIRECTORY -->
+        <!-- CATEGORIZED FACULTY PAGE -->
         <section id="faculty" class="page-section max-w-7xl mx-auto px-4 py-16">
-            <h2 class="text-4xl font-black text-slate-900 mb-12 tracking-tight">Our Faculty</h2>
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8" id="faculty-grid"></div>
+            <h2 class="text-4xl font-black mb-12 tracking-tight">Faculty Directory</h2>
+            
+            <div class="mb-16">
+                <h3 class="text-2xl font-bold text-slate-800 section-divider">Core Faculty</h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8" id="core-faculty-grid"></div>
+            </div>
+
+            <div class="mb-16">
+                <h3 class="text-2xl font-bold text-slate-800 section-divider">Secondary Affiliated Faculty</h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8" id="secondary-faculty-grid"></div>
+            </div>
+
+            <div class="mb-16">
+                <h3 class="text-2xl font-bold text-slate-800 section-divider">Faculty Fellows</h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8" id="fellow-faculty-grid"></div>
+            </div>
         </section>
 
         <!-- STUDENTS SECTION -->
         <section id="students" class="page-section max-w-7xl mx-auto px-4 py-16">
             <div class="flex flex-col md:flex-row justify-between items-end mb-10 gap-6">
-                <div>
-                    <h2 class="text-4xl font-black text-slate-900 tracking-tight">Research Scholars</h2>
-                    <p class="text-slate-500 mt-2">Ordered by Joining Year & Alphabetical Name.</p>
-                </div>
-                <div class="flex flex-wrap gap-4 w-full md:w-auto">
-                    <div class="flex-1 md:flex-none">
-                        <label class="text-[10px] font-bold text-slate-400 uppercase mb-1 block">Filter by Supervisor</label>
-                        <select id="supervisor-filter" onchange="renderStudents()" class="w-full bg-white border border-slate-200 rounded-xl px-4 py-2 text-sm focus:ring-2 focus:ring-indigo-500/20 outline-none">
-                            <option value="all">All Supervisors</option>
-                        </select>
-                    </div>
+                <h2 class="text-4xl font-black tracking-tight">Research Scholars</h2>
+                <div class="w-full md:w-auto">
+                    <label class="text-[10px] font-bold text-slate-400 uppercase mb-1 block">Filter by Supervisor</label>
+                    <select id="student-supervisor-filter" onchange="renderStudents()" class="w-full bg-white border rounded-xl px-4 py-2 text-sm outline-none shadow-sm min-w-[200px]">
+                        <option value="all">All Supervisors</option>
+                    </select>
                 </div>
             </div>
-
             <div class="bg-white rounded-[2rem] shadow-xl overflow-hidden border border-slate-100">
                 <div class="overflow-x-auto">
                     <table class="w-full text-left">
-                        <thead class="bg-slate-50 border-b border-slate-100">
+                        <thead class="bg-slate-50 border-b">
                             <tr>
-                                <th class="px-8 py-5 text-xs font-bold uppercase tracking-widest text-slate-400">Year</th>
-                                <th class="px-8 py-5 text-xs font-bold uppercase tracking-widest text-slate-400">Student Name</th>
-                                <th class="px-8 py-5 text-xs font-bold uppercase tracking-widest text-slate-400">Program</th>
-                                <th class="px-8 py-5 text-xs font-bold uppercase tracking-widest text-slate-400">Supervisor</th>
-                                <th class="px-8 py-5 text-xs font-bold uppercase tracking-widest text-slate-400">Research Focus</th>
+                                <th class="px-8 py-5 text-xs font-bold uppercase text-slate-400">Year</th>
+                                <th class="px-8 py-5 text-xs font-bold uppercase text-slate-400">Name</th>
+                                <th class="px-8 py-5 text-xs font-bold uppercase text-slate-400">Program</th>
+                                <th class="px-8 py-5 text-xs font-bold uppercase text-slate-400">Supervisor</th>
+                                <th class="px-8 py-5 text-xs font-bold uppercase text-slate-400">Area</th>
                             </tr>
                         </thead>
                         <tbody id="student-body" class="divide-y divide-slate-50"></tbody>
@@ -99,39 +108,46 @@
             </div>
         </section>
 
-        <!-- ALUMNI SECTION -->
-        <section id="alumni" class="page-section max-w-7xl mx-auto px-4 py-16">
-            <h2 class="text-4xl font-black text-slate-900 mb-10 tracking-tight">Alumni Network</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="alumni-grid"></div>
-        </section>
-
-        <!-- OTHER SECTIONS -->
-        <section id="profile" class="page-section max-w-5xl mx-auto px-4 py-16">
-            <button onclick="showPage('faculty')" class="mb-8 flex items-center text-slate-500 font-bold hover:text-indigo-600 transition-colors">
-                <i data-lucide="arrow-left" class="mr-2"></i> Back to Faculty
-            </button>
-            <div id="profile-content"></div>
-        </section>
-
-        <section id="publications" class="page-section max-w-5xl mx-auto px-4 py-16">
-            <h2 class="text-4xl font-black text-slate-900 mb-10 tracking-tight text-center">Publications</h2>
+        <!-- PUBLICATIONS SECTION -->
+        <section id="publications" class="page-section max-w-5xl mx-auto px-4 py-16 text-left">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-10 gap-6">
+                <div>
+                    <h2 class="text-4xl font-black tracking-tight">Publications</h2>
+                    <p class="text-slate-500 mt-2">Browse the latest research from our department.</p>
+                </div>
+                <div class="w-full md:w-auto text-left">
+                    <label class="text-[10px] font-bold text-slate-400 uppercase mb-1 block text-left">Filter by Faculty</label>
+                    <select id="pub-faculty-filter" onchange="renderPublications()" class="w-full bg-white border rounded-xl px-4 py-2 text-sm outline-none shadow-sm min-w-[200px]">
+                        <option value="all">All Faculty</option>
+                    </select>
+                </div>
+            </div>
             <div id="publication-list" class="space-y-4"></div>
         </section>
 
-        <section id="infrastructure" class="page-section max-w-7xl mx-auto px-4 py-16">
-            <h2 class="text-4xl font-black text-slate-900 mb-10 tracking-tight text-center">Facilities</h2>
+        <!-- ALUMNI NETWORK -->
+        <section id="alumni" class="page-section max-w-7xl mx-auto px-4 py-16 text-left">
+            <h2 class="text-4xl font-black mb-10 text-left">Alumni Network</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="alumni-grid"></div>
+        </section>
+
+        <!-- FACULTY PROFILE -->
+        <section id="profile" class="page-section max-w-5xl mx-auto px-4 py-16 text-left">
+            <button onclick="showPage('faculty')" class="mb-8 flex items-center text-slate-500 font-bold hover:text-indigo-600 transition-colors">
+                <i data-lucide="arrow-left" class="mr-2 w-4 h-4"></i> Back to Faculty List
+            </button>
+            <div id="profile-content" class="text-left"></div>
+        </section>
+
+        <!-- INFRASTRUCTURE -->
+        <section id="infrastructure" class="page-section max-w-7xl mx-auto px-4 py-16 text-left">
+            <h2 class="text-4xl font-black mb-10 text-center tracking-tight text-left">Core Facilities</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6" id="equipment-grid"></div>
         </section>
     </main>
 
-    <footer class="bg-slate-900 text-white py-20 mt-20">
-        <div class="max-w-7xl mx-auto px-4 text-center">
-            <p class="text-slate-500 text-xs tracking-widest uppercase mb-4">Department of Biological Sciences and Engineering</p>
-            <div class="flex justify-center space-x-6 text-slate-400">
-                <i data-lucide="linkedin" class="cursor-pointer hover:text-indigo-400"></i>
-                <i data-lucide="mail" class="cursor-pointer hover:text-indigo-400"></i>
-            </div>
-        </div>
+    <footer class="bg-slate-900 text-white py-12 mt-20 text-center">
+        <p class="text-slate-500 text-[10px] tracking-widest uppercase">Department of Biological Sciences and Engineering</p>
     </footer>
 
     <script>
@@ -139,19 +155,20 @@
 
         async function init() {
             try {
+                const timestamp = new Date().getTime();
                 const [f, s, e, p, a] = await Promise.all([
-                    fetch('./data/faculty.json').then(r => r.json()).catch(() => demoData.faculty),
-                    fetch('./data/students.json').then(r => r.json()).catch(() => demoData.students),
-                    fetch('./data/equipment.json').then(r => r.json()).catch(() => demoData.equipment),
-                    fetch('./data/publications.json').then(r => r.json()).catch(() => demoData.publications),
-                    fetch('./data/alumni.json').then(r => r.json()).catch(() => demoData.alumni)
+                    fetch(`./data/faculty.json?t=${timestamp}`).then(r => r.json()),
+                    fetch(`./data/students.json?t=${timestamp}`).then(r => r.json()),
+                    fetch(`./data/equipment.json?t=${timestamp}`).then(r => r.json()),
+                    fetch(`./data/publications.json?t=${timestamp}`).then(r => r.json()),
+                    fetch(`./data/alumni.json?t=${timestamp}`).then(r => r.json())
                 ]);
 
                 db = { faculty: f, students: s, equipment: e, publications: p, alumni: a };
                 setupFilters();
                 renderAll();
             } catch (err) {
-                console.error("Data Load Error:", err);
+                console.warn("Using demo data because JSON files were not found.");
                 db = demoData;
                 setupFilters();
                 renderAll();
@@ -160,143 +177,212 @@
 
         function showPage(id) {
             document.querySelectorAll('.page-section').forEach(s => s.classList.remove('active'));
-            document.getElementById(id).classList.add('active');
+            const target = document.getElementById(id);
+            if (target) {
+                target.classList.add('active');
+                
+                // Update nav link styles
+                document.querySelectorAll('.nav-btn').forEach(btn => {
+                    if (btn.innerText.toLowerCase() === id) btn.classList.add('active-link');
+                    else btn.classList.remove('active-link');
+                });
+            }
             window.scrollTo(0,0);
         }
 
         function setupFilters() {
-            const select = document.getElementById('supervisor-filter');
-            if(!select) return;
+            const studentFilter = document.getElementById('student-supervisor-filter');
+            const pubFilter = document.getElementById('pub-faculty-filter');
+            
+            // Clean dropdowns first
+            studentFilter.innerHTML = '<option value="all">All Supervisors</option>';
+            pubFilter.innerHTML = '<option value="all">All Faculty</option>';
+
             const supervisors = [...new Set(db.students.map(s => s.supervisor))].sort();
             supervisors.forEach(sup => {
                 const opt = document.createElement('option');
-                opt.value = sup;
-                opt.textContent = sup;
-                select.appendChild(opt);
+                opt.value = sup; opt.textContent = sup;
+                studentFilter.appendChild(opt);
+            });
+
+            const facultyNames = db.faculty.map(f => f.name).sort();
+            facultyNames.forEach(name => {
+                const opt = document.createElement('option');
+                opt.value = name; opt.textContent = name;
+                pubFilter.appendChild(opt);
             });
         }
 
         function renderStudents() {
-            const filterVal = document.getElementById('supervisor-filter').value;
+            const filterVal = document.getElementById('student-supervisor-filter').value;
             const container = document.getElementById('student-body');
-            
-            let sorted = [...db.students].sort((a, b) => {
-                if (b.year !== a.year) return b.year - a.year;
-                return a.name.localeCompare(b.name);
-            });
+            let data = [...db.students].sort((a, b) => (b.year - a.year) || a.name.localeCompare(b.name));
+            if (filterVal !== 'all') data = data.filter(s => s.supervisor === filterVal);
 
-            if (filterVal !== 'all') {
-                sorted = sorted.filter(s => s.supervisor === filterVal);
-            }
-
-            container.innerHTML = sorted.map(s => `
+            container.innerHTML = data.map(s => `
                 <tr class="hover:bg-indigo-50/30 transition-colors">
                     <td class="px-8 py-5 font-bold text-indigo-600 text-sm">${s.year}</td>
                     <td class="px-8 py-5 font-extrabold text-slate-800">${s.name}</td>
                     <td class="px-8 py-5 text-xs font-bold text-slate-500 uppercase">${s.program}</td>
-                    <td class="px-8 py-5 text-sm italic text-slate-600">${s.supervisor}</td>
-                    <td class="px-8 py-5 text-sm font-medium text-slate-700">${s.area}</td>
+                    <td class="px-8 py-5 text-sm italic text-slate-600 text-left">${s.supervisor}</td>
+                    <td class="px-8 py-5 text-sm font-medium text-slate-700 text-left">${s.area}</td>
                 </tr>
             `).join('');
         }
 
+        function renderPublications() {
+            const filterVal = document.getElementById('pub-faculty-filter').value;
+            const container = document.getElementById('publication-list');
+            
+            let data = [...db.publications].sort((a, b) => b.year - a.year);
+            
+            if (filterVal !== 'all') {
+                // Now matching specifically against the new 'faculty' attribute
+                data = data.filter(p => p.faculty === filterVal || p.authors.includes(filterVal));
+            }
+
+            container.innerHTML = data.length > 0 ? data.map(p => `
+                <div class="bg-white p-6 rounded-3xl border border-slate-100 shadow-sm hover:border-indigo-200 transition text-left group">
+                    <h3 class="font-bold text-slate-900 leading-tight text-lg group-hover:text-indigo-600 transition-colors">${p.title}</h3>
+                    <p class="text-sm text-slate-500 mt-2 italic">${p.authors}</p>
+                    <div class="flex items-center mt-4 justify-between">
+                        <div class="flex items-center text-xs text-indigo-600 font-black uppercase tracking-widest">
+                            <i data-lucide="book-open" class="w-3 h-3 mr-2"></i> ${p.journal}
+                        </div>
+                        <span class="text-xs font-bold text-slate-400 bg-slate-50 px-3 py-1 rounded-full">${p.year}</span>
+                    </div>
+                </div>
+            `).join('') : '<div class="text-center py-20 bg-white rounded-3xl border border-dashed border-slate-200 italic text-slate-400">No publications found for this selection.</div>';
+            
+            lucide.createIcons();
+        }
+
         function renderAll() {
-            const hod = db.faculty.find(f => f.role.includes("Head") || f.id === 1);
+            // HoD
+            const hod = db.faculty.find(f => f.role.toLowerCase().includes("head") || f.id === 1);
             if (hod) {
                 document.getElementById('hod-container').innerHTML = `
                     <div class="bg-white rounded-[3rem] shadow-2xl overflow-hidden flex flex-col md:flex-row border border-slate-100">
                         <div class="md:w-1/3"><img src="${hod.image}" class="h-full w-full object-cover min-h-[350px]" onerror="this.src='https://via.placeholder.com/400'"></div>
-                        <div class="md:w-2/3 p-12 lg:p-16 flex flex-col justify-center">
+                        <div class="md:w-2/3 p-12 lg:p-16 flex flex-col justify-center text-left">
                             <i data-lucide="quote" class="text-indigo-500 mb-6 w-12 h-12"></i>
-                            <h2 class="text-3xl font-black mb-6 text-slate-800 uppercase tracking-tighter">Message from the HoD</h2>
-                            <p class="text-slate-600 mb-8 italic text-lg leading-relaxed">"Our department stands as a pillar of interdisciplinary research, bridging the gaps between biological intuition and engineering solutions."</p>
-                            <p class="font-black text-slate-900">${hod.name}</p>
-                            <p class="text-xs text-slate-500 font-bold uppercase tracking-widest">Head of Department</p>
-                            ${hod.email ? `<p class="text-indigo-600 text-sm font-medium mt-2 flex items-center"><i data-lucide="mail" class="w-4 h-4 mr-2"></i> ${hod.email}</p>` : ''}
+                            <h2 class="text-3xl font-black mb-6 uppercase tracking-tighter">Message from the HoD</h2>
+                            <p class="text-slate-600 mb-8 italic text-lg leading-relaxed">"Our vision is to combine engineering innovation with biological insights to tackle global health challenges. We foster an environment of interdisciplinary curiosity and translational excellence."</p>
+                            <div class="border-t pt-6">
+                                <p class="font-black text-slate-900">${hod.name}</p>
+                                <p class="text-xs text-slate-500 font-bold uppercase tracking-widest">Head of Department</p>
+                            </div>
                         </div>
                     </div>
                 `;
             }
 
-            document.getElementById('faculty-grid').innerHTML = db.faculty.map(f => `
-                <div onclick="openProfile(${f.id})" class="bg-white p-6 rounded-3xl shadow-sm hover:shadow-xl transition-all cursor-pointer border border-slate-100 group text-center relative overflow-hidden">
-                    <img src="${f.image}" class="h-40 w-40 mx-auto rounded-full object-cover mb-4 group-hover:scale-105 transition-transform border-4 border-indigo-50">
-                    <h3 class="font-black text-slate-800 leading-tight">${f.name}</h3>
-                    <p class="text-indigo-600 text-[10px] font-black uppercase tracking-widest mt-1">${f.field}</p>
-                    <div class="mt-4 opacity-0 group-hover:opacity-100 transition-opacity">
-                         <span class="text-xs font-bold text-slate-400 flex items-center justify-center"><i data-lucide="info" class="w-3 h-3 mr-1"></i> View Profile</span>
-                    </div>
-                </div>
-            `).join('');
+            // Categorized Faculty
+            const renderGrid = (id, type) => {
+                const filtered = db.faculty.filter(f => (f.category || 'core').toLowerCase() === type);
+                const grid = document.getElementById(id);
+                if (grid) {
+                    grid.innerHTML = filtered.map(f => `
+                        <div onclick="openProfile(${f.id})" class="bg-white p-6 rounded-3xl shadow-sm hover:shadow-xl transition-all cursor-pointer border border-slate-100 group text-center">
+                            <div class="relative w-32 h-32 mx-auto mb-4">
+                                <img src="${f.image}" class="w-full h-full rounded-full object-cover group-hover:scale-105 transition-transform border-4 border-indigo-50" onerror="this.src='https://via.placeholder.com/200'">
+                            </div>
+                            <h3 class="font-black text-slate-800 leading-tight group-hover:text-indigo-600 transition-colors">${f.name}</h3>
+                            <p class="text-indigo-600 text-[10px] font-black uppercase tracking-widest mt-1">${f.field}</p>
+                        </div>
+                    `).join('');
+                }
+            };
 
+            renderGrid('core-faculty-grid', 'core');
+            renderGrid('secondary-faculty-grid', 'secondary');
+            renderGrid('fellow-faculty-grid', 'fellow');
+
+            // Alumni
             document.getElementById('alumni-grid').innerHTML = db.alumni.map(a => `
-                <div class="bg-white p-6 rounded-3xl shadow-sm border border-slate-100">
-                    <div class="flex justify-between items-start mb-4">
-                        <h3 class="font-black text-slate-900">${a.name}</h3>
-                        <span class="bg-indigo-600 text-white px-3 py-1 rounded-full text-[10px] font-bold">Class of ${a.year}</span>
+                <div class="bg-white p-6 rounded-3xl shadow-sm border border-slate-100 text-left">
+                    <div class="flex justify-between items-start mb-2">
+                        <h3 class="font-black text-slate-900 leading-none">${a.name}</h3>
+                        <span class="text-[10px] font-bold text-white bg-indigo-600 px-2 py-0.5 rounded-full uppercase tracking-widest">${a.year}</span>
                     </div>
-                    <p class="text-sm text-slate-500 italic mb-2">Thesis: ${a.thesis}</p>
-                    <p class="text-xs font-bold text-indigo-600 uppercase">Current: ${a.currentPosition}</p>
+                    <p class="text-xs text-slate-500 italic mb-3 border-b pb-2">Thesis: ${a.thesis}</p>
+                    <p class="text-[10px] font-bold uppercase text-indigo-500 flex items-center">
+                        <i data-lucide="map-pin" class="w-2.5 h-2.5 mr-1"></i> ${a.currentPosition}
+                    </p>
                 </div>
             `).join('');
 
+            // Equipment
             document.getElementById('equipment-grid').innerHTML = db.equipment.map(e => `
-                <div class="bg-white p-8 rounded-3xl shadow-sm border-t-4 ${e.status === 'Operational' ? 'border-emerald-500' : 'border-amber-500'}">
+                <div class="bg-white p-8 rounded-3xl shadow-sm border-t-4 ${e.status === 'Operational' ? 'border-emerald-500' : 'border-amber-500'} text-left">
+                    <div class="flex justify-between items-center mb-4">
+                         <div class="p-3 bg-slate-50 rounded-2xl text-indigo-600"><i data-lucide="microscope" class="w-5 h-5"></i></div>
+                         <span class="text-[10px] font-black uppercase tracking-widest ${e.status === 'Operational' ? 'text-emerald-600' : 'text-amber-600'} bg-slate-100 px-3 py-1 rounded-full">${e.status}</span>
+                    </div>
                     <h3 class="font-black text-slate-800 mb-1">${e.name}</h3>
-                    <p class="text-[10px] text-slate-400 uppercase font-bold tracking-widest mb-4">${e.cat}</p>
-                    <p class="text-xs font-black ${e.status === 'Operational' ? 'text-emerald-600' : 'text-amber-600'}">${e.status}</p>
-                </div>
-            `).join('');
-
-            document.getElementById('publication-list').innerHTML = db.publications.map(p => `
-                <div class="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm hover:border-indigo-200 transition">
-                    <h3 class="font-bold text-slate-900 leading-tight">${p.title}</h3>
-                    <p class="text-sm text-slate-500 mt-2 italic">${p.authors}</p>
-                    <p class="text-xs text-indigo-600 font-black mt-2 uppercase tracking-widest">${p.journal} — ${p.year}</p>
+                    <p class="text-[10px] font-black text-slate-400 uppercase tracking-widest">${e.cat}</p>
                 </div>
             `).join('');
 
             renderStudents();
+            renderPublications();
             lucide.createIcons();
         }
 
         function openProfile(id) {
             const f = db.faculty.find(x => x.id === id);
             const labStudents = db.students.filter(s => s.supervisor === f.name);
+            // Updated filtering logic in profile view as well
+            const labPubs = db.publications.filter(p => p.faculty === f.name || p.authors.includes(f.name)).sort((a,b) => b.year - a.year).slice(0, 3);
             
             document.getElementById('profile-content').innerHTML = `
-                <div class="bg-white rounded-[3rem] shadow-2xl overflow-hidden border">
+                <div class="bg-white rounded-[3rem] shadow-2xl overflow-hidden border text-left">
                     <div class="h-40 bg-gradient-to-r from-indigo-600 to-indigo-900"></div>
                     <div class="p-12">
-                        <img src="${f.image}" class="w-40 h-40 rounded-3xl border-8 border-white shadow-lg -mt-28 mb-6 object-cover">
+                        <img src="${f.image}" class="w-40 h-40 rounded-3xl border-8 border-white shadow-lg -mt-28 mb-6 object-cover" onerror="this.src='https://via.placeholder.com/200'">
                         <h2 class="text-4xl font-black text-slate-900">${f.name}</h2>
-                        <p class="text-indigo-600 font-bold mb-4 italic uppercase text-sm tracking-widest">${f.role} — ${f.field}</p>
+                        <p class="text-indigo-600 font-bold mb-8 uppercase text-sm tracking-widest">${f.role} — ${f.field}</p>
                         
                         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 pt-8 border-t">
                             <div class="lg:col-span-2">
-                                <h4 class="text-xl font-black text-slate-900 mb-4">Research Overview</h4>
-                                <p class="text-slate-600 leading-relaxed text-lg mb-8">${f.bio}</p>
+                                <h4 class="text-xl font-black text-slate-900 mb-4 flex items-center"><i data-lucide="book" class="w-5 h-5 mr-3 text-indigo-600"></i> Biography</h4>
+                                <p class="text-slate-600 leading-relaxed text-lg mb-12">${f.bio}</p>
                                 
-                                <h4 class="text-xl font-black text-slate-900 mb-4">Lab Members</h4>
+                                <h4 class="text-xl font-black text-slate-900 mb-6 flex items-center"><i data-lucide="award" class="w-5 h-5 mr-3 text-indigo-600"></i> Recent Lab Publications</h4>
+                                <div class="space-y-3 mb-12">
+                                    ${labPubs.length > 0 ? labPubs.map(p => `
+                                        <div class="p-4 bg-slate-50 rounded-2xl border border-slate-100 hover:border-indigo-200 transition-colors">
+                                            <p class="font-bold text-slate-800 leading-tight">${p.title}</p>
+                                            <p class="text-indigo-500 text-[10px] mt-2 uppercase font-black tracking-widest">${p.journal} (${p.year})</p>
+                                        </div>
+                                    `).join('') : '<p class="text-slate-400 italic text-sm">No recent publications linked.</p>'}
+                                </div>
+
+                                <h4 class="text-xl font-black text-slate-900 mb-6 flex items-center"><i data-lucide="users-2" class="w-5 h-5 mr-3 text-indigo-600"></i> Current Lab Members</h4>
                                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                                     ${labStudents.length > 0 ? labStudents.map(s => `
-                                        <div class="bg-slate-50 p-4 rounded-2xl border border-slate-100">
-                                            <p class="font-bold text-slate-800">${s.name}</p>
-                                            <p class="text-[10px] text-indigo-600 font-bold uppercase tracking-widest">${s.program} (${s.year})</p>
+                                        <div class="bg-white p-4 rounded-2xl border border-slate-100 shadow-sm flex items-center">
+                                            <div class="bg-indigo-50 text-indigo-600 p-2 rounded-lg mr-4"><i data-lucide="user" class="w-4 h-4"></i></div>
+                                            <div>
+                                                <p class="font-bold text-slate-800 leading-tight">${s.name}</p>
+                                                <p class="text-indigo-500 text-[9px] uppercase font-black tracking-widest">${s.program} (${s.year})</p>
+                                            </div>
                                         </div>
-                                    `).join('') : '<p class="text-slate-400 italic">No scholars currently listed in this lab.</p>'}
+                                    `).join('') : '<p class="text-slate-400 italic text-sm">No students currently listed.</p>'}
                                 </div>
                             </div>
-                            <div class="space-y-6">
-                                <div class="bg-indigo-50 p-6 rounded-3xl">
-                                    <h5 class="font-black text-[10px] uppercase tracking-widest mb-4 border-b border-indigo-100 pb-2 flex items-center">
+                            <div>
+                                <div class="bg-slate-50 p-8 rounded-[2rem] sticky top-24 border border-slate-100 shadow-inner">
+                                    <h5 class="font-black text-[10px] uppercase tracking-widest mb-6 flex items-center text-slate-400 border-b pb-2">
                                         <i data-lucide="mail" class="w-3 h-3 mr-2"></i> Contact Details
                                     </h5>
                                     ${f.email ? `
-                                        <p class="text-sm text-indigo-900 font-bold break-all">${f.email}</p>
-                                        <a href="mailto:${f.email}" class="inline-block mt-4 text-[10px] font-black uppercase text-white bg-indigo-600 px-4 py-2 rounded-lg hover:bg-indigo-700 transition-colors">Send Email</a>
+                                        <p class="text-sm text-indigo-900 font-bold break-all mb-6">${f.email}</p>
+                                        <a href="mailto:${f.email}" class="flex items-center justify-center w-full text-[10px] font-black uppercase text-white bg-indigo-600 py-4 rounded-2xl hover:bg-indigo-700 shadow-xl shadow-indigo-200 transition-all">
+                                            <i data-lucide="send" class="w-3 h-3 mr-2"></i> Send Inquiry
+                                        </a>
                                     ` : `
-                                        <p class="text-xs text-indigo-400 italic">No email address listed.</p>
+                                        <p class="text-xs text-slate-400 italic">Official contact email not provided.</p>
                                     `}
                                 </div>
                             </div>
@@ -308,25 +394,30 @@
             lucide.createIcons();
         }
 
+        // IMPROVED DEMO DATA WITH FACULTY ATTRIBUTE FOR PUBLICATIONS
         const demoData = {
             faculty: [
-                { id: 1, name: "Prof. Jagadeesh Bayry", role: "Professor & Head", field: "Immunology", email: "jbayry@university.edu", image: "images/JB.jpg", bio: "Leading researcher in immune regulation." },
-                { id: 2, name: "Dr. Prasun Kumar", role: "Assistant Professor", field: "Bioinformatics", email: "pkumar@university.edu", image: "images/PK.jpg", bio: "Focusing on MD simulations." }
+                { id: 1, category: "core", name: "Prof. Jagadeesh Bayry", role: "Professor & Head", field: "Immunology", email: "jbayry@iitpkd.ac.in", image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400", bio: "Leading researcher in immune regulation and structural biology." },
+                { id: 2, category: "secondary", name: "Dr. Prasanna Bhat", role: "Associate Professor", field: "Virology", email: "pb@univ.edu", image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400", bio: "Affiliated faculty specializing in viral dynamics." },
+                { id: 3, category: "fellow", name: "Dr. Abdul Rasheed P", role: "Ramanujan Fellow", field: "Bio-Sensors", email: "ar@iitpkd.ac.in", image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400", bio: "Fellowship research on point-of-care diagnostics." }
             ],
             students: [
-                { name: "Rahul S.", year: 2023, program: "PhD", supervisor: "Prof. Jagadeesh Bayry", area: "Dendritic Cells" },
-                { name: "Anita Rao", year: 2024, program: "M.Tech", supervisor: "Dr. Prasun Kumar", area: "Protein Design" },
-                { name: "Akshay P.", year: 2023, program: "PhD", supervisor: "Prof. Jagadeesh Bayry", area: "Immune Checkpoints" }
+                { name: "Rahul Sharma", year: 2023, program: "PhD", supervisor: "Prof. Jagadeesh Bayry", area: "Immune Checkpoints" },
+                { name: "Anita Rao", year: 2024, program: "M.Tech", supervisor: "Dr. Prasanna Bhat", area: "Viral Modeling" },
+                { name: "Akshay P.", year: 2023, program: "PhD", supervisor: "Prof. Jagadeesh Bayry", area: "Dendritic Cells" }
             ],
             alumni: [
                 { name: "Dr. Kavya M.", year: 2021, thesis: "Neural Bio-interfaces", currentPosition: "Senior Scientist at BioTech Inc." },
-                { name: "Rohan V.", year: 2022, thesis: "Viral Capsid Modeling", currentPosition: "PostDoc at Cambridge" }
+                { name: "Rohan V.", year: 2022, thesis: "Viral Capsid Modeling", currentPosition: "Cambridge University" }
             ],
             equipment: [
-                { name: "HPC GPU Cluster", cat: "Computation", status: "Operational" }
+                { name: "HPC GPU Cluster", cat: "Computation", status: "Operational" },
+                { name: "FPLC System", cat: "Analytical", status: "Maintenance" }
             ],
             publications: [
-                { title: "AI in Structural Biology", authors: "Kumar P., et al.", journal: "Nature", year: 2024 }
+                { title: "Machine Learning in Protein Engineering", authors: "Kumar P., Bayry J., et al.", faculty: "Prof. Jagadeesh Bayry", journal: "Nature", year: 2024 },
+                { title: "Point-of-Care Diagnostics for Viral Detection", authors: "Rasheed A., et al.", faculty: "Dr. Abdul Rasheed P", journal: "Science", year: 2023 },
+                { title: "Immunomodulation by IVIG", authors: "Jagadeesh Bayry, et al.", faculty: "Prof. Jagadeesh Bayry", journal: "J. Immunology", year: 2024 }
             ]
         };
 
