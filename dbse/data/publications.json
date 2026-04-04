@@ -1,16 +1,298 @@
 [
-    {
-        "title": "Machine Learning for Protein Engineering",
-        "authors": "Prasun Kumar, et al.",
-        "faculty": "Dr. Prasun Kumar",
-        "journal": "Nature Reviews Bio",
-        "year": 2023
-    },
-    {
-        "title": "Immunomodulation by Intravenous Immunoglobulin",
-        "authors": "Jagadeesh Bayry, et al.",
-        "faculty": "Prof. Jagadeesh Bayry",
-        "journal": "Science Immunology",
-        "year": 2024
-    }
+  {
+    "year": 2026,
+    "title": "Engineered sialylated IgG1 Fc as a dose-sparing alternative to IVIG",
+    "authors": "Retnakumar SV and Bayry J",
+    "journal": "Nature Reviews Rheumatology",
+    "details": "22: 149–150",
+    "faculty": ["Prof. Jagadeesh Bayry"]
+  },
+  {
+    "year": 2026,
+    "title": "Recent advances in MXene-based self-powered electrochemical sensors",
+    "authors": "Arjun AM, Ankitha M, Mathew M, Sharma S, Rasheed PA*",
+    "journal": "Journal of Materials Chemistry A",
+    "details": "14: 1450-1467",
+    "faculty": ["Dr. Abdul Rasheed P"]
+  },
+  {
+    "year": 2026,
+    "title": "Silane-Coupling Impelled Metal Oxide-MXene Proximity: An Electrochemical Probe for Tracking Enteral Histaminosis In Vitro",
+    "authors": "Richard B, Mathew M, Anoop AN, Janani T, Chacko JT, Niyas K, Veeraraghavan P, and Rasheed PA*",
+    "journal": "ACS Biomaterials Science and Engineering",
+    "details": "12(1): 600–616",
+    "faculty": ["Dr. Abdul Rasheed P"]
+  },
+  {
+    "year": 2026,
+    "title": "Understanding Monkeypox virus evolution, host-pathogen interactions, and therapeutic advances",
+    "authors": "Prajapati A, Jella R, Dendi MR, Salla S, Mukherjee S, Bayry J, Tatikonda RR, Hu H and Bonam SR",
+    "journal": "Reviews in Medical Virology",
+    "details": "36: e70103",
+    "faculty": ["Prof. Jagadeesh Bayry"]
+  },
+  {
+    "year": 2026,
+    "title": "Intravenous immunoglobulin remodels innate immune cell communication and induce differential autophagy pathways",
+    "authors": "Singh SC, Retnakumar SV, Das M, Kaveri SV, Mathew MJ and Bayry J",
+    "journal": "Cellular & Molecular Immunology",
+    "details": "23: 182-198",
+    "faculty": ["Prof. Jagadeesh Bayry"]
+  },
+  {
+    "year": 2026,
+    "title": "Folate receptor targeting amino modified Niobium MXene for the delivery of Doxorubicin to cancer cells",
+    "authors": "Arjun AM, Mathew M, Pathan S, Bayry J and Rasheed PA*",
+    "journal": "Journal of Drug Delivery Science and Technology",
+    "details": "117: 107989",
+    "faculty": ["Prof. Jagadeesh Bayry", "Dr. Abdul Rasheed P"]
+  },
+  {
+    "year": 2026,
+    "title": "Measuring public health integrity in India: Kerala's COVID-19 undercount as a benchmark for excellence",
+    "authors": "Nazeer SS, Kottur J and Bayry J",
+    "journal": "Frontiers in Public Health",
+    "details": "14: 1724793",
+    "faculty": ["Prof. Jagadeesh Bayry"]
+  },
+  {
+    "year": 2026,
+    "title": "Understanding the physiology of lactose intolerance and an insight on the recent trends on management strategies",
+    "authors": "Suneer M, Thabshira P, Mohan M, Kumar N, Akhtar S, Rasheed PA*",
+    "journal": "International Dairy Journal",
+    "details": "178: 106633",
+    "faculty": ["Dr. Abdul Rasheed P"]
+  },
+  {
+    "year": 2026,
+    "title": "Cellular mechanosensing on a cell-scale stiffness gradient substrate",
+    "authors": "Bhattacharjee I, Soni GV and Sarangi BR",
+    "journal": "Soft Matter",
+    "details": "22: 1314-1325",
+    "faculty": ["Dr. Bibhu Ranjan Sarangi"]
+  },
+  {
+    "year": 2026,
+    "title": "Enhancing Glucometer Technology for Improved Diabetes Management: A User’s Perspectives",
+    "authors": "Prem A, Mohan M, Rasheed PA*",
+    "journal": "Current Advances in Medicine",
+    "details": "Art. E29496632412521",
+    "faculty": ["Dr. Abdul Rasheed P"]
+  },
+  {
+    "year": 2026,
+    "title": "Unraveling the inhibitory potential of caffeic acid-derived amide-ester against alpha-glucosidase, alpha-amylase and protein glycation",
+    "authors": "Kodakat K, F Shamsheera F, Mathew M, PA Rasheed, Sadhukhan S.*",
+    "journal": "Bioorganic & Medicinal Chemistry Letters",
+    "details": "114: 130107",
+    "faculty": ["Dr. Abdul Rasheed P", "Dr. Sushabhan Sadhukhan"]
+  },
+  {
+    "year": 2026,
+    "title": "Mechanism of intravenous immunoglobulin action in immune-mediated diseases",
+    "authors": "Singh SC and Bayry J",
+    "journal": "Current Opinion in Immunology",
+    "details": "90: 102543",
+    "faculty": ["Prof. Jagadeesh Bayry"]
+  },
+  {
+    "year": 2025,
+    "title": "The Yin and Yang of TLR4 in COVID-19",
+    "authors": "Mukherjee S* and Bayry J*",
+    "journal": "Cytokine & Growth Factor Reviews",
+    "details": "82: 70-85",
+    "faculty": ["Prof. Jagadeesh Bayry"]
+  },
+  {
+    "year": 2025,
+    "title": "Upcycling of electronic waste into a Cu-based metal-organic framework: From cell phone to a disposable electrochemical bilirubin sensor",
+    "authors": "Pathan S, Raveendran J, Memon M, Chavda V, Niyas K, Bayry J and Rasheed PA",
+    "journal": "Chemical Engineering Journal",
+    "details": "511: 162217",
+    "faculty": ["Prof. Jagadeesh Bayry", "Dr. Abdul Rasheed P"]
+  },
+  {
+    "year": 2025,
+    "title": "Regulation of immune cell metabolism by therapeutic normal IgG intravenous immunoglobulin",
+    "authors": "Rambabu N, Alzaid F, Anđelković BD, Retnakumar SV, Karnam A, Bonam SR, Orliaguet L, Ejlalmanesh T, Tonui D, Chu-Van E, Brunet L, Bozinovic N, Nemazanyy I, Käsermann F, Venteclef N, Kaveri SV, Léger T, Fenaille F, Colsch B and Bayry J*",
+    "journal": "Journal of Allergy and Clinical Immunology",
+    "details": "156: 418-432",
+    "faculty": ["Prof. Jagadeesh Bayry"]
+  },
+  {
+    "year": 2025,
+    "title": "Rational design of molecularly imprinted polymer for the detection of gut microbiota-derived trimethyl amine N-oxide, a biomarker for colorectal cancer",
+    "authors": "Ankitha M, Chacko JT, Jospeh S and Rasheed PA*",
+    "journal": "Chemical Engineering Journal",
+    "details": "518: 164478",
+    "faculty": ["Dr. Abdul Rasheed P"]
+  },
+  {
+    "year": 2025,
+    "title": "COVID-19-associated autoimmune and inflammatory diseases: molecular mechanisms and the role of genetic and environmental factors",
+    "authors": "Bordoloi S, Singh SC and Bayry J*",
+    "journal": "Frontiers in Immunology",
+    "details": "16: 1515222",
+    "faculty": ["Prof. Jagadeesh Bayry"]
+  },
+  {
+    "year": 2025,
+    "title": "A multimodal caffeic acid-derived alkyl-amide antidiabetic agent: targeting α-glucosidase, α-amylase, oxidative stress, and protein glycation",
+    "authors": "Kannan K, Sadhukhan S.*",
+    "journal": "RSC Advances",
+    "details": "15: 41833–41849",
+    "faculty": ["Dr. Sushabhan Sadhukhan"]
+  },
+  {
+    "year": 2025,
+    "title": "l-Arginine-Functionalized Mild Etchant-Derived Nb2CTx MXene for Electrochemical Dual Nucleotide Sensing",
+    "authors": "Ankitha M, Anas M, Shivkumar, Dalimpa U, Rasheed PA*",
+    "journal": "Langmuir",
+    "details": "41(46): 31660–31675",
+    "faculty": ["Dr. Abdul Rasheed P"]
+  },
+  {
+    "year": 2025,
+    "title": "Curvature dependent dynamics of a bacterium confined in a giant unilamellar vesicle",
+    "authors": "Olivia Vincent, Aparna Sreekumari, Manoj Gopalakrishnan, Vishwas V. Vasisht, Bibhu Ranjan Sarangi",
+    "journal": "Physical Rev E",
+    "details": "112: 024408",
+    "faculty": ["Dr. Bibhu Ranjan Sarangi"]
+  },
+  {
+    "year": 2025,
+    "title": "The p53 mRNA exhibits riboswitch-like features under DNA damage conditions",
+    "authors": "Olivares-Illana V, Vadivel Gnanasundram S*, Fahraeus R*",
+    "journal": "iScience",
+    "details": "28: 113555",
+    "faculty": ["Dr. Sivakumar VG"]
+  },
+  {
+    "year": 2024,
+    "title": "Interplay between host humoral pattern recognition molecules controls undue immune responses against Aspergillus fumigatus",
+    "authors": "Dellière S, Chauvin C, Wong SSW, Gressler M, Possetti V, Parente R, Fontaine T, Krüeger T, Kniemeyer O, Bayry J, Carvalho A, Brakhage AA, Inforzato A, Latgé JP and Aimanianda V",
+    "journal": "Nature Communications",
+    "details": "15: 6966",
+    "faculty": ["Prof. Jagadeesh Bayry"]
+  },
+  {
+    "year": 2024,
+    "title": "A hike of postdoc salary alone will not retain the best researchers in low- or middle- income countries",
+    "authors": "Bayry J*",
+    "journal": "Nature",
+    "details": "632: 503",
+    "faculty": ["Prof. Jagadeesh Bayry"]
+  },
+  {
+    "year": 2024,
+    "title": "Transformative breakthrough in cancer phototheranostics utilizing bioinspired chemistry of polydopamine-based multifunctional nanostructures",
+    "authors": "Nanthini K C, Thangam R, Karthikeyan L, Rithisa B, Rasheed P. A, Min S, Kang H, Kannikaparameswari N, Vivek R",
+    "journal": "Coordination Chemistry Reviews",
+    "details": "518: 216043",
+    "faculty": ["Dr. Abdul Rasheed P"]
+  },
+  {
+    "year": 2024,
+    "title": "Infrared Spectroscopy for Rapid Triage of Cancer Using Blood Derivatives: A Reality Check",
+    "authors": "Nazeer SS, Venkataraman RK, Jayasree RS and Bayry J",
+    "journal": "Analytical Chemistry",
+    "details": "96: 957-965",
+    "faculty": ["Prof. Jagadeesh Bayry"]
+  },
+  {
+    "year": 2024,
+    "title": "Comparative evaluation of diagnostic accuracy of point-of-care rapid antigen tests for SARS-CoV-2",
+    "authors": "Nazeer SS, Sudhiram S and Bayry J*",
+    "journal": "Diagnostics",
+    "details": "14(4): 412",
+    "faculty": ["Prof. Jagadeesh Bayry"]
+  },
+  {
+    "year": 2024,
+    "title": "Selective luminescent detection of 5-nitroimidazole antibiotics through self-aggregates",
+    "authors": "Jose, A.; Vijayan, V. N.; Sahadevan, R.; Porel, M.*; Sadhukhan, S.*",
+    "journal": "Journal of Luminescence",
+    "details": "272: 120612",
+    "faculty": ["Dr. Sushabhan Sadhukhan"]
+  },
+  {
+    "year": 2024,
+    "title": "Wearable threads for monitoring sanitizer quality using dye displacement assay",
+    "authors": "P Joshi, A Shinde, S Sudhiram, B R Sarangi and N K Mani",
+    "journal": "RSC Advances",
+    "details": "14: 37155",
+    "faculty": ["Dr. Bibhu Ranjan Sarangi"]
+  },
+  {
+    "year": 2023,
+    "title": "The implication of anti-PD-1 therapy in cancer patients for the vaccination against viral and other infectious diseases",
+    "authors": "Retnakumar SV, Chauvin C, and Bayry J*",
+    "journal": "Pharmacology & Therapeutics",
+    "details": "245: 108399",
+    "faculty": ["Prof. Jagadeesh Bayry"]
+  },
+  {
+    "year": 2023,
+    "title": "Obesity negatively impacts maintenance of antibody response to COVID-19 vaccines",
+    "authors": "Chauvin C, Retnakumar SV and Bayry J*",
+    "journal": "Cell Reports Medicine",
+    "details": "4: 101117",
+    "faculty": ["Prof. Jagadeesh Bayry"]
+  },
+  {
+    "year": 2023,
+    "title": "Intravenous immunoglobulin: mechanism of action in autoimmune and inflammatory conditions",
+    "authors": "Bayry J*, Ahmed E, Toscana-Rivera D, Vonneissen N, Genest G, Cohen C, Dembele M, Kaveri SV and Mazer BD*",
+    "journal": "Journal of Allergy and Clinical Immunology",
+    "details": "11: 1688-1697",
+    "faculty": ["Prof. Jagadeesh Bayry"]
+  },
+  {
+    "year": 2022,
+    "title": "Restoration of established systemic inflammation and autoimmunity by Foxp3+ regulatory T cells",
+    "authors": "Sharma VK and Bayry J*",
+    "journal": "Cellular & Molecular Immunology",
+    "details": "19: 133-135",
+    "faculty": ["Prof. Jagadeesh Bayry"]
+  },
+  {
+    "year": 2022,
+    "title": "Recent advances in niobium MXenes: Synthesis, properties, and emerging applications",
+    "authors": "P. Abdul Rasheed, Ravi P. Pandey, Fawzi Banat, and Shadi W. Hasan*",
+    "journal": "Matter",
+    "details": "5: 546-572",
+    "faculty": ["Dr. Abdul Rasheed P"]
+  },
+  {
+    "year": 2021,
+    "title": "Boolean analysis of the transcriptomic data to identify novel biomarkers of IVIG response",
+    "authors": "Rambabu N, Mathew MJ, Kaveri SV and Bayry J*",
+    "journal": "Autoimmunity Reviews",
+    "details": "20: 102850",
+    "faculty": ["Prof. Jagadeesh Bayry"]
+  },
+  {
+    "year": 2021,
+    "title": "The long-term sequelae of COVID-19: an international consensus on research priorities",
+    "authors": "Adeloye D, Elneima O, Daines L... Bayry J... De Soyza A",
+    "journal": "Lancet Respiratory Medicine",
+    "details": "9 (12): 1467-1478",
+    "faculty": ["Prof. Jagadeesh Bayry"]
+  },
+  {
+    "year": 2021,
+    "title": "Guidelines for the use and interpretation of assays for monitoring autophagy (4th edition)",
+    "authors": "Klionsky DJ... Bayry J... Tong CK",
+    "journal": "AUTOPHAGY",
+    "details": "17: 1-382",
+    "faculty": ["Prof. Jagadeesh Bayry"]
+  },
+  {
+    "year": 2021,
+    "title": "Multisystem inflammatory syndrome in children and Kawasaki disease: a critical comparison",
+    "authors": "Sharma C, Ganigara M, Galeotti C, Burns J, Berganza F, Hayes D, Singh- Grewal D, Bharath S, Sajjan S and Bayry J*",
+    "journal": "Nature Reviews Rheumatology",
+    "details": "17: 1-382",
+    "faculty": ["Prof. Jagadeesh Bayry"]
+  }
 ]
