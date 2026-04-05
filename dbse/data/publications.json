@@ -10,7 +10,7 @@
   {
     "year": 2021,
     "title": "The long-term sequelae of COVID-19: an international consensus on research priorities for patients with pre-existing and new-onset airways disease",
-    "authors": "Adeloye D, Elneima O, Daines L, Poinasamy K, Quint JK, Walker S, Brightling CE, Siddiqui S, Hurst JR, Chalmers JD, Pfeffer PE, Novotny P, Drake TM, Abdollahi M, Agarwal D, Al-Lehebi R, Barnes PJ, Bayry J... and De Soyza A",
+    "authors": "Adeloye D, Elneima O, Daines L, Poinasamy K, Quint JK, Walker S, Brightling CE, Siddiqui S, Hurst JR, Chalmers JD, Pfeffer PE, Novotny P, Drake TM, Abdollahi M, Agarwal D, Al-Lehebi R, Barnes PJ, Bayry J, Bonay M, Bont LJ, Bourdin A, Brown T, Caramori G, Chan AHY, Dockrell DH, Doe S, Duckers J, D'Urzo A, Ekström M, Esteban C, Greene CM, Gupta A, Ingram JL, Khoo EM, San Ko FW, Koppelman GH, Lipworth BJ, Lisspers K, Loebinger M, Lopez-Campos JL, Maddocks M, Mannino D, Martinez-Garcia MA, Mcnamara R, Miravitlles M, Ndarukwa P, Pooler A, Rhee CK, Schwarz P, Shaw D, Steiner M, Tai A, Ulrik CS, Walker P, Williams M, Heaney LG, Rudan I, Sheikh A, and De Soyza A. International COVID-19 Airways Diseases Group",
     "journal": "Lancet Respiratory Medicine",
     "details": "9 (12): 1467-1478",
     "faculty": ["Prof. Jagadeesh Bayry"]
@@ -20,7 +20,7 @@
     "title": "Unraveling the mechanisms of IVIG immunotherapy in MIS-C",
     "authors": "Ganigara M, Sharma C and Bayry J",
     "journal": "Cell Reports Medicine",
-    "details": "2: 100431",
+    "details": "2: Article number 100431",
     "faculty": ["Prof. Jagadeesh Bayry"]
   },
   {
@@ -36,7 +36,7 @@
     "title": "Potential immuno- nanomedicine strategies to fight COVID-19 like pulmonary infections",
     "authors": "Bonam SR, Kotla NG, Bohara RA, Rochev Y, Webster TJ, and Bayry J",
     "journal": "Nano Today",
-    "details": "36: 101051",
+    "details": "36: Article number 101051",
     "faculty": ["Prof. Jagadeesh Bayry"]
   },
   {
@@ -90,7 +90,7 @@
   {
     "year": 2021,
     "title": "Induction of antiviral and cell mediated immune responses significantly reduce viral load in an acute foot-and-mouth disease virus infection in cattle",
-    "authors": "Saravanan S, Guleria N, Ranjitha HB, Sreenivasa BP, Hosamani M, Prieto C... Bayry J... and Basagoudanavar SH",
+    "authors": "Saravanan S, Guleria N, Ranjitha HB, Sreenivasa BP, Hosamani M, Prieto C, UmapathiV, Santosh HK, Behera S, Dhanesh VV, Krishna GS, Gopinath S, Kolte A, Bayry J, Sanyal A and Basagoudanavar SH",
     "journal": "Genomics",
     "details": "113: 4254- 4266",
     "faculty": ["Prof. Jagadeesh Bayry"]
@@ -116,7 +116,7 @@
     "title": "Antibody therapy: from diphtheria to cancer, COVID-19 and beyond",
     "authors": "Kumar D, Gauthami S, Bayry J, Kaveri SV and Hegde NR",
     "journal": "Monoclonal Antibodies in Immunodiagnosis and Immunotherapy",
-    "details": "40: 36-49",
+    "details": "40:36-49",
     "faculty": ["Prof. Jagadeesh Bayry"]
   },
   {
@@ -132,7 +132,7 @@
     "title": "Basophils orchestrate kidney fibrosis",
     "authors": "Chauvin C and Bayry J",
     "journal": "Cell Research",
-    "details": "32: 713-714",
+    "details": "32:713-714",
     "faculty": ["Prof. Jagadeesh Bayry"]
   },
   {
@@ -154,9 +154,41 @@
   {
     "year": 2022,
     "title": "Rescuing SLAMF3 expression restores sorafenib response in hepatocellular carcinoma cells through the induction of mes-enchymal-to-epithelial transition",
-    "authors": "Fouquet G, Marié C, Collet L, Vilpoux C, Ouled-Haddou H, Nguyen-Khac E, Bayry J, Naassila M, Marcq I and Bouhlal H",
+    "authors": "Fouquet G, Marié C, Collet L, Vilpoux C, Ouled-Haddou H, Ngu-yen-Khac E, Bayry J, Naassila M, Marcq I and Bouhlal H",
     "journal": "Cancers",
     "details": "14: 910",
+    "faculty": ["Prof. Jagadeesh Bayry"]
+  },
+  {
+    "year": 2022,
+    "title": "The EHA Research Roadmap: Transfusion Medicine",
+    "authors": "Stanworth S, Brand A, Kaveri SV, Vrielink H, Greinacher A, Domanovic D, von Lindern M, Allard S, Bayry J, Bohonek M, Buser A, Claas FHJ, Knutson F, Lozano M, Olsson ML, Pirenne F, Rebulla P, So-Osman C, Tissot J-D, Toye AM, Ushiro-Lumb I, van den Akker E and Zeerleder",
+    "journal": "HemaSphere",
+    "details": "6(2): e670",
+    "faculty": ["Prof. Jagadeesh Bayry"]
+  },
+  {
+    "year": 2022,
+    "title": "IFN-γ induces PD-L1 expression in primed human basophils",
+    "authors": "Bonam SR, Chauvin C, Mathew MJ and Bayry J",
+    "journal": "Cells",
+    "details": "11: 801",
+    "faculty": ["Prof. Jagadeesh Bayry"]
+  },
+  {
+    "year": 2022,
+    "title": "In silico analyses on the comparative potential of therapeutic human monoclonal antibodies against newly emerged SARS-CoV-2 variants bearing mutant spike protein",
+    "authors": "Das NC, Chakraborty P, Bayry J and Mukherjee S",
+    "journal": "Frontiers in Immunology",
+    "details": "12:782506",
+    "faculty": ["Prof. Jagadeesh Bayry"]
+  },
+  {
+    "year": 2022,
+    "title": "SARS-CoV- 2 induces cytokine responses in human basophils",
+    "authors": "Bonam SR, Chauvin C, Levillayer L, Mathew MJ, Sakuntabhai A and Bayry J",
+    "journal": "Frontiers in Immunology",
+    "details": "12: 838448",
     "faculty": ["Prof. Jagadeesh Bayry"]
   },
   {
@@ -164,15 +196,23 @@
     "title": "Cross-linked laminar graphene oxide membranes for wastewater treatment and desalination: A review",
     "authors": "RP Pandey, P Kallem, HM Hegab, PA Rasheed, F Banat, SW Hasan",
     "journal": "Journal of Environmental Management",
-    "details": "317: 115367",
+    "details": "317, 115367",
     "faculty": ["Dr. Abdul Rasheed P"]
+  },
+  {
+    "year": 2022,
+    "title": "Role of the PD-1 and PD-L1 axis in COVID-19",
+    "authors": "Bonam SR, Hu H and Bayry J",
+    "journal": "Future Microbiology",
+    "details": "17: 985-988",
+    "faculty": ["Prof. Jagadeesh Bayry"]
   },
   {
     "year": 2022,
     "title": "Nb4C3Tx (MXene)/Au/DNA aptasensor for the ultraselective electrochemical detection of lead in water samples",
     "authors": "P A Rasheed, R Pandey, K Jabbar, K Mahmoud",
     "journal": "Electroanalysis",
-    "details": "34: 1540-46",
+    "details": "34:1540-46",
     "faculty": ["Dr. Abdul Rasheed P"]
   },
   {
@@ -196,7 +236,7 @@
     "title": "A review on advances in the development of electrochemical sensors for the detection of anesthetic drugs",
     "authors": "Ajith Mohan Arjun, Prasannakumari H. Krishna, Anish R. Nath and P. Abdul Rasheed",
     "journal": "Analytical Methods",
-    "details": "14: 4040-4052",
+    "details": "14, 4040-4052",
     "faculty": ["Dr. Abdul Rasheed P"]
   },
   {
@@ -204,7 +244,7 @@
     "title": "Facile chemical modification of Nb2CTx MXene with ethylene diamine for sensitive electrochemical detection of dopamine from human serum samples",
     "authors": "M Ankitha, N Shabana, AM Arjun, PA Rasheed",
     "journal": "Carbon Trends",
-    "details": "9: 100232",
+    "details": "9:100232",
     "faculty": ["Dr. Abdul Rasheed P"]
   },
   {
@@ -220,7 +260,7 @@
     "title": "COVID-19: A Veterinary and One Health Perspective",
     "authors": "Kumar D, Bayry J and Hegde NR",
     "journal": "Journal of the Indian Institute of Science",
-    "details": "102: 689-709",
+    "details": "102:689-709",
     "faculty": ["Prof. Jagadeesh Bayry"]
   },
   {
@@ -252,7 +292,7 @@
     "title": "Gasdermin D as a cellular switch to orientate immune responses via IL-33 or IL-1β",
     "authors": "Chauvin C, Retnakumar SV and Bayry J",
     "journal": "Cellular & Molecular Immunology",
-    "details": "20: 8-10",
+    "details": "20:8-10",
     "faculty": ["Prof. Jagadeesh Bayry"]
   },
   {
@@ -260,31 +300,63 @@
     "title": "High risk of autoimmune diseases after COVID-19",
     "authors": "Sharma C and Bayry J",
     "journal": "Nature Reviews Rheumatology",
-    "details": "19: 399-400",
+    "details": "19:399-400",
     "faculty": ["Prof. Jagadeesh Bayry"]
   },
   {
     "year": 2023,
-    "title": "Vaccines and vaccine adjuvants/immunomodulators for infectious diseases",
+    "title": "THEME: Vaccines and vaccine adjuvants/immunomodulators for infectious diseases",
     "authors": "Retnakumar SV, Bonam SR, Hu H and Bayry J",
     "journal": "Vaccines",
-    "details": "11: 383",
+    "details": "11:383",
     "faculty": ["Prof. Jagadeesh Bayry"]
   },
   {
     "year": 2023,
     "title": "Intravenous immunoglobulin: mechanism of action in autoimmune and inflammatory conditions",
     "authors": "Bayry J, Ahmed E, Toscana-Rivera D, Vonneissen N, Genest G, Cohen C, Dembele M, Kaveri SV and Mazer BD",
-    "journal": "Journal of Allergy and Clinical Immunology In Practice",
+    "journal": "Journal of Allergy and Clinical Immunology. In Practice",
     "details": "11: 1688-1697",
     "faculty": ["Prof. Jagadeesh Bayry"]
   },
   {
     "year": 2023,
-    "title": "Chemico-biological aspects of (−)-epigallocatechin-3-gallate (EGCG) to improve its stability, bioavailability and membrane permeability",
+    "title": "IL-3 produced by T cells is crucial for basophil extravasation in hapten-induced allergic contact dermatitis",
+    "authors": "Hachem CE, Marschall P, Hener P, Karnam A, Bonam SR, Meyer P, Flatter E, Birling M-C, Bayry J and Li M",
+    "journal": "Frontiers in Immunology",
+    "details": "14: 1151468",
+    "faculty": ["Prof. Jagadeesh Bayry"]
+  },
+  {
+    "year": 2023,
+    "title": "Tocilizumab treated convalescent COVID-19 patients retain the cross-neutralization potential against SARS-CoV-2 variants",
+    "authors": "Chauvin C, Levillayer L, Roumier M, Nielly H, Roth C, Karnam A, Bonam SR, Bourgarit A, Dubost C, Bousquet A, le Burel S, Mestiri R, Sene D, Galland J, Vasse M, Groh M, le Marchand M, Vassord-Dang C, Gautier J-F, Pham-Thi N, Verny C, Pitard B, Planchais C, Mouquet H, Paul R, Simon-Loriere E, Bayry J, Gilardin L and Sakuntabhai A",
+    "journal": "iScience",
+    "details": "26:106124",
+    "faculty": ["Prof. Jagadeesh Bayry"]
+  },
+  {
+    "year": 2023,
+    "title": "Retrospective analysis on the immunopotentiating mechanism of an emulsion-based vaccine adjuvant on human antigen presenting cells",
+    "authors": "Bonam SR, Platenburg PP and Bayry J",
+    "journal": "Frontiers in Immunology",
+    "details": "13: 1086752",
+    "faculty": ["Prof. Jagadeesh Bayry"]
+  },
+  {
+    "year": 2023,
+    "title": "Chemico-biological aspects of (−)-epigallocatechin-3-gallate (EGCG) to improve its stability, bioavailability and membrane permeability: Current status and future prospects",
     "authors": "Sahadevan R, Singh S, Binoy A, Sadhukhan S",
     "journal": "Crit. Rev. Food. Nutr. Sci.",
-    "details": "63(30): 10382-10411",
+    "details": "63(30):10382-10411",
+    "faculty": ["Dr. Sushabhan Sadhukhan"]
+  },
+  {
+    "year": 2023,
+    "title": "Dansyl-appended sequence-defined oligomers for selective ultrasensitive detection of Hg2+ in water, paper strips, living cells and its efficient removal",
+    "authors": "Jose, A., Sahadevan, R., Vijay, M, Sadhukhan, S., Porel, M",
+    "journal": "Sensors and Actuators B: Chemical",
+    "details": "380: 133335",
     "faculty": ["Dr. Sushabhan Sadhukhan"]
   },
   {
@@ -292,12 +364,20 @@
     "title": "In situ global proteomics profiling of EGCG targets using a cell-permeable and Click-able bioorthogonal probe",
     "authors": "Sahadevan R, Binoy A, Vechalapu SK, Nanjan P and Sadhukhan S",
     "journal": "Int. J. Biol. Macromol.",
-    "details": "237: 123991",
+    "details": "237:123991",
     "faculty": ["Dr. Sushabhan Sadhukhan"]
   },
   {
     "year": 2023,
-    "title": "Unveiling the capability of graphitic carbon nitride–rhenium disulfide nanocomposite as an electrochemical sensing platform for the detection of dimetridazole",
+    "title": "20 years since the approval of first EGFR-TKIs, Gefitinib: Insight and foresight",
+    "authors": "Singh S, Sadhukhan S, Sonawane A",
+    "journal": "Biochimica et Biophysica Acta (BBA) - Reviews on Cancer",
+    "details": "1878: 188967",
+    "faculty": ["Dr. Sushabhan Sadhukhan"]
+  },
+  {
+    "year": 2023,
+    "title": "Unveiling the capability of graphitic carbon nitride–rhenium disulfide nanocomposite as an electrochemical sensing platform for the detection of dimetridazole from human serum samples",
     "authors": "M. Mufeeda, Pushpalatha V. Vaishag, Menon Ankitha, P. Abdul Rasheed",
     "journal": "Materials Advances",
     "details": "4: 4159-4167",
@@ -308,7 +388,87 @@
     "title": "Conversion of Electronic Waste to an Electrochemical Sensor for Dopamine: Using MXene-Modified Liquid Crystal Display Panels",
     "authors": "Pushpalatha Vijayakumar Vaishag, Sabarija A Mohandas, M. Mufeeda, Praveena Gangadharan, and Pathath Abdul Rasheed",
     "journal": "ACS Sustainable Chem. Eng",
-    "details": "11: 12771−12779",
+    "details": "11, 12771−12779",
+    "faculty": ["Dr. Abdul Rasheed P"]
+  },
+  {
+    "year": 2023,
+    "title": "An overview on surface modification of niobium MXenes for diagnostic and prognostic applications",
+    "authors": "A.M. Arjun, Menon Ankitha, N. Shabana, P.V. Vaishag, Fathima Shamsheera, M. Mufeeda, P. Abdul Rasheed",
+    "journal": "FlatChem",
+    "details": "41, 100538",
+    "faculty": ["Dr. Abdul Rasheed P"]
+  },
+  {
+    "year": 2023,
+    "title": "Flexible and disposable electrodes based on SnO2 nanoparticle/Nb2CTx nanosheet composites for selective and ultrasensitive detection of propofol",
+    "authors": "M Ankitha, PV Vaishag, P Muhsin, PA Rasheed",
+    "journal": "Journal of Industrial and Engineering Chemistry",
+    "details": "131: 449-458",
+    "faculty": ["Dr. Abdul Rasheed P"]
+  },
+  {
+    "year": 2023,
+    "title": "Acoustics Platform Meet MXenes–A New Paradigm Shift in the Palette of Biomedical Applications",
+    "authors": "R Bartholomew, C Shahana, R Vivek, A Reddy, PA Rasheed",
+    "journal": "Nanoscale",
+    "details": "15, 18156–18172",
+    "faculty": ["Dr. Abdul Rasheed P"]
+  },
+  {
+    "year": 2023,
+    "title": "Nb2CTx/Protonated Carbon Nitride Nanocomposite for Electrochemical Detection of Serotonin",
+    "authors": "M Mufeeda, M Ankitha, PA Rasheed",
+    "journal": "ACS Applied Nano Materials",
+    "details": "6, 22, 21152–21161",
+    "faculty": ["Dr. Abdul Rasheed P"]
+  },
+  {
+    "year": 2023,
+    "title": "Carbon Cloth Yarn Modified with Amino-Functionalized Nb2CTx Nanosheets for the Electrochemical Detection of Mycophenolate Mofetil",
+    "authors": "PV Vaishag, M Ankitha, PA Rasheed",
+    "journal": "ACS Applied Nano Materials",
+    "details": "6 (24), 23324–23331",
+    "faculty": ["Dr. Abdul Rasheed P"]
+  },
+  {
+    "year": 2023,
+    "title": "Comparative binding ability of human monoclonal antibodies against Omicron variants of SARS- CoV-2: An In Silico investigation",
+    "authors": "Das NC, Chakraborty P, Bayry J and Mukherjee S",
+    "journal": "Antibodies",
+    "details": "12:17",
+    "faculty": ["Prof. Jagadeesh Bayry"]
+  },
+  {
+    "year": 2023,
+    "title": "Electrochemical deposition of Prussian blue on Nb2CTx MXene modified carbon cloth for the non-enzymatic electrochemical detection of hydrogen peroxide",
+    "authors": "AM Arjun, N Shabana, M Ankitha, PA Rasheed",
+    "journal": "Microchemical Journal",
+    "details": "185: 108301",
+    "faculty": ["Dr. Abdul Rasheed P"]
+  },
+  {
+    "year": 2023,
+    "title": "Lysozyme protected copper nano-cluster: A photo-switch for the selective sensing of Fe2+",
+    "authors": "Anna Sebastian, Aaryaa, Bibhu Ranjan Sarangi, Supratik Sen Mojumdar",
+    "journal": "Journal of Photochemistry and Photobiology A: Chemistry",
+    "details": "436:114378",
+    "faculty": ["Dr. Bibhu Ranjan Sarangi"]
+  },
+  {
+    "year": 2023,
+    "title": "Nb2CTx@ MoS2 composite as a highly efficient catalyst for the degradation of organic dyes",
+    "authors": "N Shabana, AM Arjun, M Ankitha, PA Rasheed",
+    "journal": "Catalysis Communications",
+    "details": "173:106566",
+    "faculty": ["Dr. Abdul Rasheed P"]
+  },
+  {
+    "year": 2023,
+    "title": "Ultrasensitive electrochemical detection of dopamine from human serum samples by Nb2CTx-MoS2 hetero structures",
+    "authors": "M Ankitha, N Shabana, AM Arjun, P Muhsin, PA Rasheed",
+    "journal": "Microchemical Journal",
+    "details": "Vol 193, 109214",
     "faculty": ["Dr. Abdul Rasheed P"]
   },
   {
@@ -321,11 +481,107 @@
   },
   {
     "year": 2023,
-    "title": "Mitochondria-targeting EGCG derivatives protect H9c2 cardiomyocytes from H2O2-induced apoptosis",
+    "title": "Improved defluoridation and energy production using dimethyl sulfoxide modified carbon cloth as bioanode in microbial desalination cell",
+    "authors": "Sabarija A. Mohandas, Sravan Janardhanan, P Abdul Rasheed, Praveena Gangadharan",
+    "journal": "Heliyon",
+    "details": "9(6): e16614",
+    "faculty": ["Dr. Abdul Rasheed P"]
+  },
+  {
+    "year": 2023,
+    "title": "Design, synthesis, and applications of pyrene-quinoline based cell-permeable AIEgen for cellular imaging and antibacterial activity",
+    "authors": "Jose A, Chathangad SN, Sahadevan R, Binoy A, Vignesh A, Sadhukhan S, Porel M",
+    "journal": "Journal of Photochemistry and Photobiology A: Chemistry",
+    "details": "444: 114950",
+    "faculty": ["Dr. Sushabhan Sadhukhan"]
+  },
+  {
+    "year": 2023,
+    "title": "Role of EGFR and FASN in breast cancer progression",
+    "authors": "Chaturvedi S, Biswas M, Sadhukhan S, Sonawane A",
+    "journal": "Journal of Cell Communication and Signaling",
+    "details": "17:1249-1282",
+    "faculty": ["Dr. Sushabhan Sadhukhan"]
+  },
+  {
+    "year": 2023,
+    "title": "Non-aromatic single amino acid, lysine: A simple fluorescence sensor for selective detection of Cu2+ and Co2+ with colorimetric distinction by the virtue of its self-aggregation behavior",
+    "authors": "Sahadevan R, Jose A, Porel M, and Sadhukhan S",
+    "journal": "Journal of Photochemistry & Photobiology, A: Chemistry",
+    "details": "445:115086",
+    "faculty": ["Dr. Sushabhan Sadhukhan"]
+  },
+  {
+    "year": 2023,
+    "title": "Tumor-Targeted Conjugated Polymer Promotes Photothermal Immunogenic Cell Death and Release of the TLR-9 Immunostimulant Induced Efficient Cancer Immunotherapy",
+    "authors": "Laxmanan Karthikeyan, Pathath Abdul Rasheed, Yuvaraj Haldorai, Raju Vivek",
+    "journal": "ACS Applied Polymer Materials",
+    "details": "5: 7167–7179",
+    "faculty": ["Dr. Abdul Rasheed P"]
+  },
+  {
+    "year": 2023,
+    "title": "Mitochondria-targeting EGCG derivatives protect H9c2 cardiomyocytes from H2O2-induced apoptosis: Design, synthesis and biological evaluation",
     "authors": "Sahadevan R, Binoy A, Shajan I, Sadhukhan S",
     "journal": "RSC Advances",
     "details": "13: 29477",
     "faculty": ["Dr. Sushabhan Sadhukhan"]
+  },
+  {
+    "year": 2023,
+    "title": "Pyrene aroylhydrazone-based Pd(II) complexes for DNA/protein binding, cellular imaging and in vitro anticancer activity via ROS production",
+    "authors": "Vignesh A, Binoy A, Thurakkal L, Bhuvanesh NSP, Sadhukhan S, Porel M",
+    "journal": "Journal of Molecular Structure",
+    "details": "1295: 136693",
+    "faculty": ["Dr. Sushabhan Sadhukhan"]
+  },
+  {
+    "year": 2023,
+    "title": "4\"-Alkyl EGCG derivatives induce cytoprotective autophagy response by inhibiting EGFR in glioblastoma cells",
+    "authors": "Singh, S.; Ghosh, P.; Roy, R.; Behera, A.; Sahadevan, R.; Kar, P.; Sadhukhan, S.; Sonawane, A.",
+    "journal": "ACS Omega",
+    "details": "9:2286-2301",
+    "faculty": ["Dr. Sushabhan Sadhukhan"]
+  },
+  {
+    "year": 2023,
+    "title": "Immunoinformatics approaches in designing vaccines against COVID-19",
+    "authors": "Chakraborty A, Bayry J and Mukherjee S",
+    "journal": "Methods in Molecular Biology",
+    "details": "2673:431-452",
+    "faculty": ["Prof. Jagadeesh Bayry"]
+  },
+  {
+    "year": 2023,
+    "title": "A Mini Review on Recent Advances in MXene Based Electrochemical Wearable Sensing Devices",
+    "authors": "M Ankitha, AM Arjun, N Shabana, PA Rasheed",
+    "journal": "Biomedical Materials & Devices",
+    "details": "1: 339–350",
+    "faculty": ["Dr. Abdul Rasheed P"]
+  },
+  {
+    "year": 2023,
+    "title": "A novel ReS2–Nb2CTx composite as a sensing platform for ultrasensitive and selective electrochemical detection of dipyramidole from human serum",
+    "authors": "M Ankitha, N Shabana, PA Rasheed",
+    "journal": "Graphene and 2D Materials",
+    "details": "8:27–37",
+    "faculty": ["Dr. Abdul Rasheed P"]
+  },
+  {
+    "year": 2023,
+    "title": "A flexible and sensitive electrochemical sensing platform based on dimethyl sulfoxide modified carbon cloth: towards the detection of dopamine and carvedilol",
+    "authors": "N Shabana, AA Mohan, M Ankitha, SA Mohandas, P Gangadharan, PA Rasheed",
+    "journal": "Analytical Methods",
+    "details": "15: 685",
+    "faculty": ["Dr. Abdul Rasheed P"]
+  },
+  {
+    "year": 2023,
+    "title": "Ru–W modified graphitic carbon nitride by a monomer complexation synthesis approach from a tailored polyoxometalate: towards electrochemical detection of hydrogen peroxide released by cells",
+    "authors": "Neermunda Shabana, Ajith Mohan Arjun, K Rajendran, Soyeb Pathan, and P Abdul Rasheed",
+    "journal": "Analytical Methods",
+    "details": "15: 587-595",
+    "faculty": ["Dr. Abdul Rasheed P"]
   },
   {
     "year": 2024,
@@ -345,6 +601,14 @@
   },
   {
     "year": 2024,
+    "title": "Transformative breakthrough in cancer phototheranostics utilizing bioinspired chemistry of polydopamine-based multifunctional nanostructures",
+    "authors": "Nanthini K C, Thangam R, Karthikeyan L, Rithisa B, Rasheed P. A, Min S, Kang H, Kannikaparameswari N, Vivek R",
+    "journal": "Coordination Chemistry Reviews",
+    "details": "518: 216043",
+    "faculty": ["Dr. Abdul Rasheed P"]
+  },
+  {
+    "year": 2024,
     "title": "Infrared Spectroscopy for Rapid Triage of Cancer Using Blood Derivatives: A Reality Check",
     "authors": "Nazeer SS, Venkataraman RK, Jayasree RS and Bayry J",
     "journal": "Analytical Chemistry",
@@ -353,18 +617,74 @@
   },
   {
     "year": 2024,
-    "title": "Novel molecular hybrids of EGCG and quinoxaline: Potent multi-targeting antidiabetic agents",
+    "title": "Selective luminescent detection of 5-nitroimidazole antibiotics through self-aggregates of a single non-aromatic amino acid, L-lysine",
+    "authors": "Jose, A.; Vijayan, V. N.; Sahadevan, R.; Porel, M.; Sadhukhan, S",
+    "journal": "Microchemical Journal",
+    "details": "197, 109802",
+    "faculty": ["Dr. Sushabhan Sadhukhan"]
+  },
+  {
+    "year": 2024,
+    "title": "Novel molecular hybrids of EGCG and quinoxaline: Potent multi-targeting antidiabetic agents that inhibit α-glucosidase, α-amylase, and oxidative stress",
     "authors": "Kothari, M.; Kannan, K.; Sahadevan, R.; Sadhukhan, S",
     "journal": "International Journal of Biological Macromolecules",
-    "details": "263: 130175",
+    "details": "263, 130175",
     "faculty": ["Dr. Sushabhan Sadhukhan"]
+  },
+  {
+    "year": 2024,
+    "title": "Unconventional fluorescence behaviour of ε-polylysine: Selective and sensitive detection of Cu(II) in real water samples, test paper strips, living cells, and anticounterfeiting applications",
+    "authors": "Sahadevan, R.; Kannan, K.; Jose, A.; Porel, M.; Sadhukhan, S",
+    "journal": "Sensors and Actuators B: Chemical",
+    "details": "409: 135589",
+    "faculty": ["Dr. Sushabhan Sadhukhan"]
+  },
+  {
+    "year": 2024,
+    "title": "Integration of polydopamine-coated Nb2CTx MXene nanosheets into PLA membranes for enhanced antifouling performance and efficient SARS-CoV-2 removal from raw wastewater",
+    "authors": "Ravi P. Pandey, Menon Ankitha, Mariane Daou, Mariam Ouda, P. Abdul Rasheed, Lina Tizani, Shadi W. Hasan",
+    "journal": "Journal of Industrial and Engineering Chemistry",
+    "details": "136:501-513",
+    "faculty": ["Dr. Abdul Rasheed P"]
   },
   {
     "year": 2024,
     "title": "Biological Metal–Organic Framework-Embedded MXene Nanocomposite as a Wearable Transducer Patch for Real-Time Monitoring of the Sleep Hormone",
     "authors": "Richard B, Niyas K, Ankitha M, Rasheed PA",
     "journal": "ACS Applied Nano Materials",
-    "details": "7 (8): 9585–9597",
+    "details": "7 (8):9585–9597",
+    "faculty": ["Dr. Abdul Rasheed P"]
+  },
+  {
+    "year": 2024,
+    "title": "Recent progress in smart inorganic mesoporous silica-based nanovaccine for cancer",
+    "authors": "Rithisa B, Gowsalya, K, Rasheed PA, Vivek R",
+    "journal": "Inorganic Chemistry Communications",
+    "details": "164:112483",
+    "faculty": ["Dr. Abdul Rasheed P"]
+  },
+  {
+    "year": 2024,
+    "title": "A novel MXene coated liquid crystal display anode derived from a futile computer monitor for microbial fuel cell application",
+    "authors": "Gunaseelan K, Rajput PS, Rajumon R, Ankitha M, Rasheed PA, Gangadharan P",
+    "journal": "Journal of Power Sources",
+    "details": "609: 234714",
+    "faculty": ["Dr. Abdul Rasheed P"]
+  },
+  {
+    "year": 2024,
+    "title": "Membrane-active amphiphilic EGCG derivatives and their silver nanoparticles-formulation as broad-spectrum antibacterial and antibiofilm agents",
+    "authors": "Chathangad, S. N.; Vijayan, V. N.; Bovas, N. A.; Sahadevan, R.; Sadhukhan, S",
+    "journal": "ACS Applied Nano Materials",
+    "details": "7:18920–18931",
+    "faculty": ["Dr. Sushabhan Sadhukhan"]
+  },
+  {
+    "year": 2024,
+    "title": "Ecotoxicity and environmental safety assessment of two-dimensional niobium carbides (MXenes)",
+    "authors": "Rasheed PA, Rasool K, Younes N, Nasrallah GK, Mahmoud KA",
+    "journal": "Science of The Total Environment",
+    "details": "947, 174563",
     "faculty": ["Dr. Abdul Rasheed P"]
   },
   {
@@ -380,23 +700,111 @@
     "title": "Lipophilic derivatives of EGCG as potent α-amylase and α-glucosidase inhibitors ameliorating oxidative stress and inflammation",
     "authors": "Kothari M, Kannan K, Sahadevan R, Retnakumar SV, Chauvin C, Bayry J and Sadhukhan S",
     "journal": "Bioorganic Chemistry",
-    "details": "153: 107786",
+    "details": "153:107786",
     "faculty": ["Prof. Jagadeesh Bayry", "Dr. Sushabhan Sadhukhan"]
   },
   {
     "year": 2024,
-    "title": "Protein S-palmitoylation is markedly inhibited by 4\"-alkyl ether lipophilic derivatives of EGCG",
+    "title": "A tailored polyoxometalate-derived RuW/g-C3N4-based electrocatalyst for enhanced hydrogen evolution reaction",
+    "authors": "Soyeb Pathan, Menon Ankitha, Ajith Arjun Mohan, N Shabana, Y Tong, PA Rasheed",
+    "journal": "Material Advances",
+    "details": "5, 274-281",
+    "faculty": ["Dr. Abdul Rasheed P"]
+  },
+  {
+    "year": 2024,
+    "title": "MXene-Integrated Single-Stranded Carbon Yarn-Based Wearable Sensor Patch for On-Site Monitoring of Dopamine",
+    "authors": "M Ankitha, F Shamsheera, PA Rasheed",
+    "journal": "ACS Applied Electronic Materials",
+    "details": "6: 599–610",
+    "faculty": ["Dr. Abdul Rasheed P"]
+  },
+  {
+    "year": 2024,
+    "title": "Graphene quantum dots for biosensing and bioimaging",
+    "authors": "Rasheed PA, Ankitha M, Vijayamohanan KP, Alwarappan S",
+    "journal": "RSC Advances",
+    "details": "14:16001-16023",
+    "faculty": ["Dr. Abdul Rasheed P"]
+  },
+  {
+    "year": 2024,
+    "title": "Sea urchin nanostructured nickel cobaltite modified carbon cloth integrated wearable patches for the on-site detection of the immunosuppressant drug mycophenolate mofetil",
+    "authors": "Niyas K, Bartholomew R, Ankitha M, Rasheed PA",
+    "journal": "Analyst",
+    "details": "149, 3615-3624",
+    "faculty": ["Dr. Abdul Rasheed P"]
+  },
+  {
+    "year": 2024,
+    "title": "ε-Poly-L-lysine: A naturally-occurring biodegradable polypeptide for selective detection of 5-nitroimidazole antibiotics in animal products and living cells via fluorescence",
+    "authors": "Vijayan, V. N.; Kannan, K.; Sahadevan, R.; Jose, A.; Porel, M.; Sadhukhan, S",
+    "journal": "ACS Applied Bio Materials",
+    "details": "7, 4654–4663",
+    "faculty": ["Dr. Sushabhan Sadhukhan"]
+  },
+  {
+    "year": 2024,
+    "title": "Lab on a Syringe: Strategic Design of 1T SnS2/MXene Embedded Single-Stranded Carbon Yarn for Real-Time Stress Biomarker Detection",
+    "authors": "Richard B, Niyas K, Mathew M, Rasheed PA",
+    "journal": "ACS Appl. Electron. Mater.",
+    "details": "6(9): 6905–6915",
+    "faculty": ["Dr. Abdul Rasheed P"]
+  },
+  {
+    "year": 2024,
+    "title": "Wearable threads for monitoring sanitizer quality using dye displacement assay",
+    "authors": "P Joshi, A Shinde, S Sudhiram, B R Sarangi and N K Mani",
+    "journal": "RSC Advances",
+    "details": "14: 37155",
+    "faculty": ["Dr. Bibhu Ranjan Sarangi"]
+  },
+  {
+    "year": 2024,
+    "title": "Helminth-derived biomolecules as potential therapeutics against ulcerative colitis",
+    "authors": "Chakraborty A, Bayry J and Mukherjee S",
+    "journal": "Immunotherapy",
+    "details": "16:635-640",
+    "faculty": ["Prof. Jagadeesh Bayry"]
+  },
+  {
+    "year": 2024,
+    "title": "Comparative analysis of the Aspergillus fumigatus cell wall modification and ensuing human dendritic cell responses by β-(1,3)-glucan synthase inhibitors – Caspofungin and Enfumafungin",
+    "authors": "Guilloux K, Hegde P, Wong SSW, Aimanianda V, Bayry J and Latgé JP",
+    "journal": "Mycopathologia",
+    "details": "189:86",
+    "faculty": ["Prof. Jagadeesh Bayry"]
+  },
+  {
+    "year": 2024,
+    "title": "Protein S-palmitoylation is markedly inhibited by 4\"-alkyl ether lipophilic derivatives of EGCG, the major green tea polyphenol: In vitro and in silico studies",
     "authors": "Binoy, A.; Kothari, M. ; Sahadevan, R. ; Poddar, S.; Kar, P.; Sadhukhan, S",
     "journal": "Biochimica et Biophysica Acta (BBA) - Biomembranes",
-    "details": "1866: 184264",
+    "details": "1866, 184264",
     "faculty": ["Dr. Sushabhan Sadhukhan"]
+  },
+  {
+    "year": 2024,
+    "title": "Diffusion mediated rigidity-gradient hydrogel substrate for cellular mechanosensing",
+    "authors": "Bhattacharjee I, Sudhiram S, Nithya M, Kumar B and Sarangi B R",
+    "journal": "Eur Phys J Spec Top",
+    "details": "233: 3123-3131",
+    "faculty": ["Dr. Bibhu Ranjan Sarangi"]
+  },
+  {
+    "year": 2024,
+    "title": "Comparative evaluation of diagnostic accuracy of point-of-care rapid antigen tests for SARS-CoV-2",
+    "authors": "Nazeer SS, Sudhiram S and Bayry J",
+    "journal": "Diagnostics",
+    "details": "14(4): 412",
+    "faculty": ["Prof. Jagadeesh Bayry"]
   },
   {
     "year": 2025,
     "title": "The Yin and Yang of TLR4 in COVID-19",
     "authors": "Mukherjee S and Bayry J",
     "journal": "Cytokine & Growth Factor Reviews",
-    "details": "82: 70-85",
+    "details": "82:70-85",
     "faculty": ["Prof. Jagadeesh Bayry"]
   },
   {
@@ -410,26 +818,226 @@
   {
     "year": 2025,
     "title": "Regulation of immune cell metabolism by therapeutic normal IgG intravenous immunoglobulin",
-    "authors": "Rambabu N, Alzaid F, Anđelković BD, Retnakumar SV, Karnam A, Bonam SR, Orliaguet L... Bayry J",
+    "authors": "Rambabu N, Alzaid F, Anđelković BD, Retnakumar SV, Karnam A, Bonam SR, Orliaguet L, Ejlalmanesh T, Tonui D, Chu-Van E, Brunet L, Bozinovic N, Nemazanyy I, Käsermann F, Venteclef N, Kaveri SV, Léger T, Fenaille F, Colsch B and Bayry J",
     "journal": "Journal of Allergy and Clinical Immunology",
     "details": "156: 418-432",
     "faculty": ["Prof. Jagadeesh Bayry"]
   },
   {
     "year": 2025,
+    "title": "Rational design of molecularly imprinted polymer for the detection of gut microbiota-derived trimethyl amine N-oxide, a biomarker for colorectal cancer",
+    "authors": "Ankitha M, Chacko JT, Jospeh S and Rasheed PA",
+    "journal": "Chemical Engineering Journal",
+    "details": "518:164478",
+    "faculty": ["Dr. Abdul Rasheed P"]
+  },
+  {
+    "year": 2025,
+    "title": "COVID-19-associated autoimmune and inflammatory diseases: molecular mechanisms and the role of IVIG therapy",
+    "authors": "Bordoloi S, Singh SC and Bayry J",
+    "journal": "Clinical Reviews in Allergy & Immunology",
+    "details": "68:99",
+    "faculty": ["Prof. Jagadeesh Bayry"]
+  },
+  {
+    "year": 2025,
+    "title": "In Silico evidence of Monkeypox F14 as a ligand for the human TLR1/2 dimer",
+    "authors": "Chakraborty A, Das NC, Sen Gupta PS, Panda SK, Rana MK, Bonam SR, Bayry J and Mukherjee S",
+    "journal": "Frontiers in Immunology",
+    "details": "16: 1544443",
+    "faculty": ["Prof. Jagadeesh Bayry"]
+  },
+  {
+    "year": 2025,
+    "title": "Non-Ti MXenes: new biocompatible and biodegradable candidates for biomedical applications",
+    "authors": "Gayathri VG, Richard B, Chacko JT, Bayry J and Abdul Rasheed P",
+    "journal": "Journal of Materials Chemistry B",
+    "details": "13: 1212-1228",
+    "faculty": ["Prof. Jagadeesh Bayry", "Dr. Abdul Rasheed P"]
+  },
+  {
+    "year": 2025,
+    "title": "Insights into one drug, multi-target aspects of polyphenols for diabetes management: In vitro, in vivo, and clinical evidence",
+    "authors": "Kannan K, George, JA, Sahadevan R, Kothari M and Sadhukhan, S",
+    "journal": "Phytochemistry Reviews",
+    "details": "https://doi.org/10.1007/s11101-024-10047-9",
+    "faculty": ["Dr. Sushabhan Sadhukhan"]
+  },
+  {
+    "year": 2025,
+    "title": "Nanostructure Modified Carbon Thread as Wearable Patch for Enzymatic and Non Invasive Monitoring of Glucose from Human Samples",
+    "authors": "Chacko J T, Niyas K, Mathew A T and Rasheed PA",
+    "journal": "Biosensors and Bioelectronics: X",
+    "details": "26:100653",
+    "faculty": ["Dr. Abdul Rasheed P"]
+  },
+  {
+    "year": 2025,
+    "title": "British Journal of Cancer",
+    "authors": "Sajwan, R., Wang, L., Casar-Borota, O., Karakostis, K., Chen, S., Fahraeus, R., Gu, X., and Vadivel Gnanasundram, S",
+    "journal": "British Journal of Cancer",
+    "details": "2025 (In Press)",
+    "faculty": ["Dr. Sivakumar VG"]
+  },
+  {
+    "year": 2025,
     "title": "Chemoproteomics in live bacteria identifies covalent interactome of epigallocatechin-3-gallate (EGCG) underlying its multimodal antibacterial mechanism",
     "authors": "Chathangad S N; George JA; Sahadevan R; Sadhukhan S",
     "journal": "Journal of Agricultural and Food Chemistry",
-    "details": "73 (31): 19834–19847",
+    "details": "73, 31, 19834–19847",
     "faculty": ["Dr. Sushabhan Sadhukhan"]
+  },
+  {
+    "year": 2025,
+    "title": "Tannic acid-derived carbon dots with antibacterial activity for detection of 5-nitroimidazole antibiotics",
+    "authors": "Vijayan VN, Kannan K and Sadhukhan S",
+    "journal": "ACS Applied Nano Materials",
+    "details": "https://doi.org/10.1021/acsanm.5c03421",
+    "faculty": ["Dr. Sushabhan Sadhukhan"]
+  },
+  {
+    "year": 2025,
+    "title": "IL-33 and IL-3 synergistically induce CD25 expression on human basophils without functional IL-2 signaling: a potential marker of severe COVID-19",
+    "authors": "Retnakumar SV, Singh SC, Chauvin C and Bayry J",
+    "journal": "Frontiers in Immunology",
+    "details": "16: 1718240",
+    "faculty": ["Prof. Jagadeesh Bayry"]
+  },
+  {
+    "year": 2025,
+    "title": "Emerging trends in the Cystatin C sensing technologies: towards better chronic kidney disease management",
+    "authors": "Raveendran J, Gangadharan D, Bayry J and Abdul Rasheed P",
+    "journal": "RSC Advances",
+    "details": "15:4926-4944",
+    "faculty": ["Prof. Jagadeesh Bayry", "Dr. Abdul Rasheed P"]
+  },
+  {
+    "year": 2025,
+    "title": "Rationally designed functionalized phytochemical-conjugated fullerene quantum dots inhibiting viral chaperone activity and RNA-dependent RNA polymerase in Nipah virus",
+    "authors": "Malarvizhi GL and Bayry J",
+    "journal": "FASEB Journal",
+    "details": "39: e70890",
+    "faculty": ["Prof. Jagadeesh Bayry"]
+  },
+  {
+    "year": 2025,
+    "title": "An overview on the use of non-Titanium MXenes for photothermal therapy and its combinational approach for the cancer treatment",
+    "authors": "Rahim FA, Niyas K, Pathan S, Vivek R and Rasheed PA",
+    "journal": "Nanoscale Advances",
+    "details": "7, 963-983",
+    "faculty": ["Dr. Abdul Rasheed P"]
+  },
+  {
+    "year": 2025,
+    "title": "Unraveling the potential contribution of DHHC2 in cancer biology via untargeted metabolomics",
+    "authors": "Chaturvedi, S.; Karthik, S.S.; Sadhukhan, S.; Sonawane, A",
+    "journal": "Biochimica et Biophysica Acta (BBA) - Molecular and Cell Biology of Lipids",
+    "details": "1870:159593",
+    "faculty": ["Dr. Sushabhan Sadhukhan"]
+  },
+  {
+    "year": 2025,
+    "title": "Selenium nanoparticles modified niobium MXene for non-enzymatic detection of glucose",
+    "authors": "Prabisha KE, Neena PK, Ankitha M, Rasheed PA, Suneesh PV, Satheesh Babu TG",
+    "journal": "Scientific Reports",
+    "details": "15: 1749",
+    "faculty": ["Dr. Abdul Rasheed P"]
+  },
+  {
+    "year": 2025,
+    "title": "Dithiocarbamate-based sequence-defined oligomers as promising membrane-disrupting antibacterial agents: Design, activity, and mechanism",
+    "authors": "Jose, A.; Chathangad, S. N.; Sivadas, P.#; Barik, D.; Kannan, K.; Das, S.; Sadhukhan, S.; Porel, M",
+    "journal": "ACS Appl. Bio Mater.",
+    "details": "8 (2): 1547-1558",
+    "faculty": ["Dr. Sushabhan Sadhukhan"]
+  },
+  {
+    "year": 2025,
+    "title": "Mitigating Antimicrobial Resistance through Strategic Design of Multimodal Antibacterial Agents Based on 1,2,3-Triazole with Click Chemistry",
+    "authors": "Chathangad, S. N.; Vijayan, V. N.; George, J. A.; Sadhukhan, S",
+    "journal": "ACS Bio & Med Chem Au",
+    "details": "https://doi.org/10.1021/acsbiomedchemau.4c00132",
+    "faculty": ["Dr. Sushabhan Sadhukhan"]
+  },
+  {
+    "year": 2025,
+    "title": "Design and synthesis of ibuprofen-based self-deliverable hybrid gel systems: Stabilization of silver nanoparticles, antibacterial and self-healing properties",
+    "authors": "Bora A, Munjal R, Chakraborty A, Meena L, Chathangad SN, Sadhukhan S, and Mukhopadhyay S",
+    "journal": "ACS Applied Bio Materials",
+    "details": "8, 7, 6159–6176",
+    "faculty": ["Dr. Sushabhan Sadhukhan"]
+  },
+  {
+    "year": 2025,
+    "title": "Mapping the L-tryptophan Capped Copper Nanocluster Mediated Binding and Targeted pH-Responsive Release of Doxorubicin via Fluorescence Resonance Energy Transfer (FRET)",
+    "authors": "Anna Sebastian, Kavya Pandarathodi, Indrajit Bhattacharjee, Abhishek Singh Shekhawat S Shekhawat, Bibhu Ranjan Sarangi, Supratik Sen Mojumdar",
+    "journal": "Materials Advances",
+    "details": "6, 4714-4724",
+    "faculty": ["Dr. Bibhu Ranjan Sarangi"]
+  },
+  {
+    "year": 2025,
+    "title": "p-Cymene-Ru (II)-organometallic conjugates based on ‘V-shaped’4-amino-1, 8-naphthalimide Tröger’s base scaffolds: Synthesis, photophysics, bioimaging, and BSA/HSA binding studies",
+    "authors": "Binduja Mohan, Anna Jose, Indrajit Bhattacharjee, Saravanan Raju, Mannanthara Kunhumon Noushija, Mintu Porel, Bibhu Ranjan Sarangi, Sankarasekaran Shanmugaraju",
+    "journal": "Dalton Transactions",
+    "details": "54: 10549-10557",
+    "faculty": ["Dr. Bibhu Ranjan Sarangi"]
+  },
+  {
+    "year": 2025,
+    "title": "Designing bifunctional ionic porous polymers: Impact of secondary building blocks on wastewater remediation and antibacterial efficiency",
+    "authors": "Kumar P; Sarkar S; Kumar A; Chathangad S; Bera S; Sadhukhan S; Vennapusa SR; Mukhopadhyay S",
+    "journal": "ACS Applied Polymer Materials",
+    "details": "In press. https://doi.org/10.1021/acsapm.5c01375",
+    "faculty": ["Dr. Sushabhan Sadhukhan"]
+  },
+  {
+    "year": 2025,
+    "title": "The p53 mRNA exhibits riboswitch-like features under DNA damage conditions",
+    "authors": "Chen S, Wang L, Malbert-Colas L, Karakostis K, Olivares-Illana V, Vadivel Gnanasundram S, Fahraeus R",
+    "journal": "iScience",
+    "details": "28: 113555",
+    "faculty": ["Dr. Sivakumar VG"]
   },
   {
     "year": 2025,
     "title": "A multimodal caffeic acid-derived alkyl-amide antidiabetic agent: targeting α-glucosidase, α-amylase, oxidative stress, and protein glycation",
     "authors": "Kannan K, Sadhukhan S",
     "journal": "RSC Advances",
-    "details": "15: 41833–41849",
+    "details": "15:41833–41849",
     "faculty": ["Dr. Sushabhan Sadhukhan"]
+  },
+  {
+    "year": 2025,
+    "title": "l-Arginine-Functionalized Mild Etchant-Derived Nb2CTx MXene for Electrochemical Dual Nucleotide Sensing",
+    "authors": "Ankitha M, Anas M, Shivkumar, Dalimpa U, Rasheed PA",
+    "journal": "Langmuir",
+    "details": "41(46): 31660–31675",
+    "faculty": ["Dr. Abdul Rasheed P"]
+  },
+  {
+    "year": 2025,
+    "title": "Identification of selective plant-derived natural carotenoid and flavonoids as the potential inhibitors of DHHC-mediated protein S-palmitoylation: An in-silico study",
+    "authors": "Chaturvedi, S.; Pandya, N.; Sadhukhan, S.; Sonawane, A",
+    "journal": "Journal of Biomolecular Structure and Dynamics",
+    "details": "43:5110-5123",
+    "faculty": ["Dr. Sushabhan Sadhukhan"]
+  },
+  {
+    "year": 2025,
+    "title": "Curvature dependent dynamics of a bacterium confined in a giant unilamellar vesicle",
+    "authors": "Olivia Vincent, Aparna Sreekumari, Manoj Gopalakrishnan, Vishwas V. Vasisht, Bibhu Ranjan Sarangi",
+    "journal": "Physical Rev E",
+    "details": "112: 024408",
+    "faculty": ["Dr. Bibhu Ranjan Sarangi"]
+  },
+  {
+    "year": 2025,
+    "title": "Nanopot V1. 0: A point of care electrochemical sensor prototype device for precise detection of tacrolimus in transplant patients",
+    "authors": "Niyas K, Anitha KR, Salmun M, Rasheed PA",
+    "journal": "Biosensors and Bioelectronics: X",
+    "details": "27: 100708",
+    "faculty": ["Dr. Abdul Rasheed P"]
   },
   {
     "year": 2026,
@@ -437,6 +1045,46 @@
     "authors": "Retnakumar SV and Bayry J",
     "journal": "Nature Reviews Rheumatology",
     "details": "22: 149–150",
+    "faculty": ["Prof. Jagadeesh Bayry"]
+  },
+  {
+    "year": 2026,
+    "title": "Recent advances in MXene-based self-powered electrochemical sensors",
+    "authors": "Arjun AM, Ankitha M, Mathew M, Sharma S, Rasheed PA",
+    "journal": "Journal of Materials Chemistry A",
+    "details": "14, 1450-1467",
+    "faculty": ["Dr. Abdul Rasheed P"]
+  },
+  {
+    "year": 2026,
+    "title": "Silane-Coupling Impelled Metal Oxide-MXene Proximity: An Electrochemical Probe for Tracking Enteral Histaminosis In Vitro",
+    "authors": "Richard B, Mathew M, Anoop AN, Janani T, Chacko JT, Niyas K, Veeraraghavan P, and Rasheed PA",
+    "journal": "ACS Biomaterials Science and Engineering",
+    "details": "12, 1, 600–616",
+    "faculty": ["Dr. Abdul Rasheed P"]
+  },
+  {
+    "year": 2026,
+    "title": "Understanding Monkeypox virus evolution, host-pathogen interactions, and therapeutic advances",
+    "authors": "Prajapati A, Jella R, Dendi MR, Salla S, Mukherjee S, Bayry J, Tatikonda RR, Hu H and Bonam SR",
+    "journal": "Reviews in Medical Virology",
+    "details": "36: e70103",
+    "faculty": ["Prof. Jagadeesh Bayry"]
+  },
+  {
+    "year": 2026,
+    "title": "Intravenous immunoglobulin remodels innate immune cell communication and induce differential autophagy pathways in Kawasaki disease",
+    "authors": "Singh SC, Retnakumar SV, Das M, Kaveri SV, Mathew MJ and Bayry J",
+    "journal": "Frontiers in Immunology",
+    "details": "17: 1753478",
+    "faculty": ["Prof. Jagadeesh Bayry"]
+  },
+  {
+    "year": 2026,
+    "title": "Carbohydrate fatty acid monosulphate ester adjuvant enhances the immunogenicity of influenza antigens via TLR4/2-dependent mechanisms",
+    "authors": "Retnakumar SV, Singh SC, Bonam SR, Chauvin C, Mathew MJ, Nielsen I, Boyle C, Hilgers L, Søgaard M, Platenburg PP and Bayry J",
+    "journal": "Frontiers in Immunology",
+    "details": "17: 1787181",
     "faculty": ["Prof. Jagadeesh Bayry"]
   },
   {
@@ -449,18 +1097,34 @@
   },
   {
     "year": 2026,
-    "title": "Recent advances in MXene-based self-powered electrochemical sensors",
-    "authors": "Arjun AM, Ankitha M, Mathew M, Sharma S, Rasheed PA",
-    "journal": "Journal of Materials Chemistry A",
-    "details": "14: 1450-1467",
+    "title": "Measuring public health integrity in India: Kerala's COVID-19 undercount as a benchmark for excellence",
+    "authors": "Nazeer SS, Kottur J and Bayry J",
+    "journal": "Frontiers in Public Health",
+    "details": "14:1724793",
+    "faculty": ["Prof. Jagadeesh Bayry"]
+  },
+  {
+    "year": 2026,
+    "title": "Understanding the physiology of lactose intolerance and an insight on the recent trends on management strategies",
+    "authors": "Suneer M, Thabshira P, Mohan M, Kumar N, Akhtar S, Rasheed PA",
+    "journal": "International Dairy Journal",
+    "details": "178:106633",
     "faculty": ["Dr. Abdul Rasheed P"]
   },
   {
     "year": 2026,
-    "title": "Silane-Coupling Impelled Metal Oxide-MXene Proximity: An Electrochemical Probe for Tracking Enteral Histaminosis In Vitro",
-    "authors": "Richard B, Mathew M, Anoop AN, Janani T, Chacko JT, Niyas K, Veeraraghavan P, and Rasheed PA",
-    "journal": "ACS Biomaterials Science and Engineering",
-    "details": "12 (1): 600–616",
+    "title": "Cellular mechanosensing on a cell-scale stiffness gradient substrate",
+    "authors": "Bhattacharjee I, Soni GV and Sarangi BR",
+    "journal": "Soft Matter",
+    "details": "22: 1314-1325",
+    "faculty": ["Dr. Bibhu Ranjan Sarangi"]
+  },
+  {
+    "year": 2026,
+    "title": "Enhancing Glucometer Technology for Improved Diabetes Management: A User’s Perspectives",
+    "authors": "Prem A, Mohan M, Rasheed PA",
+    "journal": "Current Advances in Medicine",
+    "details": "E29496632412521",
     "faculty": ["Dr. Abdul Rasheed P"]
   },
   {
@@ -468,7 +1132,7 @@
     "title": "Future prospectives for anesthesia monitoring with electrochemical sensing methods towards the detection of intravenous anesthetic cocktail drugs",
     "authors": "Kodakat K, F Shamsheera F, Mohan M, Rasheed PA",
     "journal": "Discover Electrochemistry",
-    "details": "3(1): 15",
+    "details": "3(1):15",
     "faculty": ["Dr. Abdul Rasheed P"]
   }
 ]
