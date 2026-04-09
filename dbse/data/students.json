@@ -1,37 +1,22 @@
 [
-    { 
-        "name": "Akshay P.", 
-        "year": 2023, 
-        "program": "PhD", 
-        "supervisor": "Prof. Jagadeesh Bayry", 
-        "area": "Immune Checkpoints" 
-    },
-    { 
-        "name": "Rahul S.", 
-        "year": 2023, 
-        "program": "PhD", 
-        "supervisor": "Prof. Jagadeesh Bayry", 
-        "area": "Dendritic Cells" 
-    },
-    { 
-        "name": "Anita Rao", 
-        "year": 2024, 
-        "program": "M.Tech", 
-        "supervisor": "Dr. Prasun Kumar", 
-        "area": "Protein Design" 
-    },
-    { 
-        "name": "Anna Rose Antony.", 
-        "year": 2025, 
-        "program": "PhD", 
-        "supervisor": "Dr. Prasun Kumar", 
-        "area": "Dendritic Cells" 
-    },
-    { 
-        "name": "Kiran S", 
-        "year": 2024, 
-        "program": "PhD", 
-        "supervisor": "Dr. Prasanna Bhat", 
-        "area": "Protein Design" 
-    }
+ {
+    "name": "Rahul Sharma",
+    "image": "images/students/rahul.jpg",
+    "qualification": "M.Sc. Biotechnology",
+    "institution": "IIT Madras",
+    "year": 2023,
+    "area": "Immune Checkpoints in Cancer Therapy",
+    "supervisor": "Prof. Jagadeesh Bayry",
+    "program": "PhD"
+  },
+  {
+    "name": "Anita Rao",
+    "image": "images/students/anita.jpg",
+    "qualification": "B.Tech Bioengineering",
+    "institution": "NIT Calicut",
+    "year": 2024,
+    "area": "Structural Dynamics of Viral Proteins",
+    "supervisor": "Dr. Prasanna Bhat",
+    "program": "M.Tech"
+  }
 ]
