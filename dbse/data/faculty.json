@@ -60,13 +60,14 @@
         "bio": "Expert in secondary biological studies..."
     },
     {
+
         "id": 7,
         "name": "Dr. Abdul Rasheed P",
-        "category": "fellow",
-        "role": "DBT-Ramalingaswamy Fellow",
+        "category": "core",
+        "role": "Faculty Fellowr",
         "email": "abdulrasheed@iitpkd.ac.in",
-        "image": "images/AR.jpg",
-        "field": "Sensor Design",
-        "bio": "Focus on diagnostic sensor platforms..."
+        "image": "images/ARP.jpg",
+        "field": "Early stage disease diagnosis; Wearable Bioelectronics; Drug delivery; Biomedical applications of MXenes",
+        "bio": " Dr Abdul Rasheed P is a researcher in nanobiotechnology focussing on electrochemical biosensing and drug delivery. He obtained his Ph.D. in Nanoscience and Technology from the National Institute of Technology Calicut, followed by postdoctoral research at Korea University, South Korea, and the Qatar Environment and Energy Research Institute, Qatar. His research integrates nanomaterials, electrochemistry, and device engineering, with a strong emphasis on developing low-cost, point-of-care diagnostic technologies. His current work focuses on MXene-based sensor platforms for early detection of neurological and metabolic biomarkers, along with wearable and portable electrochemical devices"
     }
 ]
