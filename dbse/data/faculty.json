@@ -4,7 +4,7 @@
         "name": "Prof. Jagadeesh Bayry",
         "category": "core",
         "role": "Professor & Head",
-        "email": "jbayry@iitpkd.ac.in",
+        "email": "bayry@iitpkd.ac.in",
         "image": "images/JB.jpg",
         "field": "Immunology, Immunotherapy, Host-Pathogen interaction, Autoimmune diseases, Inflammation, Vaccine",
         "message": "Our vision is to combine engineering innovation with biological insights to tackle global health challenges. We foster an environment where curiosity meets rigor to address complex biological questions and redefine the boundaries.",
@@ -17,8 +17,11 @@
         "role": "Assistant Professor",
         "email": "prasannabhat@iitpkd.ac.in",
         "image": "images/PB.jpg",
-        "field": "Bio-Chemistry",
-        "bio": "Expert in molecular biochemistry and cellular signaling pathways."
+        "field": "Molecular virology, Host-virus interaction, RNA biology",
+        "bio": "Dr. Prasanna Bhat is a molecular virologist whose research focuses on uncovering novel host–virus interactions that are critical for the life cycle of major pathogenic RNA viruses and understanding these interactions at the molecular level.
+His work integrates a broad range of molecular and cell biology approaches along with advanced RNA biology techniques. He completed his Ph.D. at the Indian Institute of Science, Bengaluru, where he investigated the roles of host proteins RPS5 and
+hnRNPC1/C2 in hepatitis C virus translation and replication, respectively. He then pursued postdoctoral research at UT Southwestern Medical Center, Dallas, USA, studying host–virus interactions in influenza virus with a particular focus on viral mRNA
+export. His work demonstrated that the TREX-2 complex plays a crucial role in the export of viral mRNA and, consequently, in viral protein synthesis. In parallel, along with his team members, he identified an anti-influenza molecule that targets the viral HA protein to inhibit virus entry into host cells.”
     },
     {
         "id": 3,
