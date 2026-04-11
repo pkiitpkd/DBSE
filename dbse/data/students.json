@@ -28,5 +28,15 @@
     "area": "ncRNAs in Cancer",
     "supervisor": "Dr. Sivakumar Vadivel Gnanasundram",
     "program": "PhD (HTRA)" 
-}
+},
+ {
+    "name": "R.Sadhna",
+    "image": "images/students/rsadhna.jpg",
+    "qualification": "M.E Biotechnology",
+    "institution": "BITS Pilani - Hyderabad",
+    "year": 2025,
+    "area": "RBPs in Cancer",
+    "supervisor": "Dr. Sivakumar Vadivel Gnanasundaram",
+    "program": "PhD"
+  }
 ]
