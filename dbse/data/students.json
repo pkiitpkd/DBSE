@@ -38,5 +38,15 @@
     "area": "Molecular virology",
     "supervisor": "Dr. Prasanna Bhat",
     "program": "PhD (HTRA)"
-  }
+  },
+ {
+    "name": "Aiswarya R Nath",
+    "image": "images/students/aiswarya.jpg",
+    "qualification": "M.Sc.Molecular Medicine",
+    "institution": "Amrita School of Nanoscience and Molecular Medicine, Kochi",
+    "year": 2025,
+    "area": "ncRNAs in Cancer",
+    "supervisor": "Dr. Sivakumar Vadivel Gnanasundram",
+    "program": "PhD" 
+}
 ]
