@@ -28,5 +28,15 @@
     "area": "DNA - Protein Interaction ",
     "supervisor": "Dr.Prasun Kumar",
     "program": "PhD"
+  },
+ {
+    "name": "Akshay Hosapeti",
+    "image": "images/students/akshay.jpg",
+    "qualification": "M.Sc. Biochemistry",
+    "institution": "University of Mysore",
+    "year": 2024,
+    "area": "Molecular virology",
+    "supervisor": "Dr. Prasanna Bhat",
+    "program": "PhD"
   }
 ]
