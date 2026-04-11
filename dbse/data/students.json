@@ -1,25 +1,5 @@
 [
  {
-    "name": "Rahul Sharma",
-    "image": "images/students/rahul.jpg",
-    "qualification": "M.Sc. Biotechnology",
-    "institution": "IIT Madras",
-    "year": 2023,
-    "area": "Immune Checkpoints in Cancer Therapy",
-    "supervisor": "Prof. Jagadeesh Bayry",
-    "program": "PhD"
-  },
-  {
-    "name": "Anita Rao",
-    "image": "images/students/anita.jpg",
-    "qualification": "B.Tech Bioengineering",
-    "institution": "NIT Calicut",
-    "year": 2024,
-    "area": "Structural Dynamics of Viral Proteins",
-    "supervisor": "Dr. Prasanna Bhat",
-    "program": "M.Tech"
-  },
- {
     "name": "Anna Rose Antony",
     "image": "images/students/anna.jpg",
     "qualification": "M.Tech Bioinformatics",
@@ -47,6 +27,6 @@
     "year": 2025,
     "area": "ncRNAs in Cancer",
     "supervisor": "Dr. Sivakumar Vadivel Gnanasundram",
-    "program": "PhD" 
+    "program": "PhD (HTRA)" 
 }
 ]
