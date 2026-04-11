@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Dr. GIRIDHARAN L M",
+    "image": "images/students/giridharanlm.tif",
+    "qualification": "Ph.D.",
+    "institution": "Amrita Vishwa Vidyapeetham",
+    "year": 2020,
+    "area": "Nanomedicine, drug delivery & In silico Nanomedicine design",
+    "supervisor": ["Prof. Dr. Jagadeesh Bayry"],
+    "program": "Post doctorate (Institute Postdoctoral Fellowship)"
+  }
+]
