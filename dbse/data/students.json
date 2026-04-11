@@ -38,5 +38,35 @@
     "area": "RBPs in Cancer",
     "supervisor": "Dr. Sivakumar Vadivel Gnanasundaram",
     "program": "PhD (HTRA)"
+  },
+ {
+    "name": "Niyas Kannankuzhiyan",
+    "image": "images/students/niyas.jpg",
+    "qualification": "M.Sc. Analytical Chemistry",
+    "institution": "NIT Warangal",
+    "year": 2023,
+    "area": "Electrochemical Biosensors",
+    "supervisor": "Dr. Abdul Rasheed P",
+    "program": "PhD (HTRA)"
+  },
+ {
+    "name": "Anson T Mathew",
+    "image": "images/students/anson.jpg",
+    "qualification": "B.tech Biomedical Engineering",
+    "institution": "SCET, Thrissur",
+    "year": 2025,
+    "area": "Biosensors and Biomedical Point of Care Applications",
+    "supervisor": "Dr. Abdul Rasheed P",
+    "program": "M.S (by research)"
+  },
+ {
+    "name": "Jissy Anna George",
+    "image": "images/students/Jissy.jpg",
+    "qualification": "M.Sc. Biochemistry",
+    "institution": "University of Hyderabad",
+    "year": 2024 ,
+    "area": "Post translational modifications in diabetes",
+    "supervisor": "Dr. Sushabhan Sadhukhan",
+    "program": "PhD"
   }
 ]
