@@ -1,12 +1,22 @@
 [
  {
+    "name": "Gayathri V G",
+    "image": "images/students/Gayathri.jpg",
+    "qualification": "M.Sc. Biochemistry and Molecular Biology",
+    "institution": "Pondicherry University",
+    "year": 2023,
+    "area": "MXene based Drug delivery systems for Neurological disorders",
+    "supervisor": ["Prof. Jagadeesh Bayry", "Dr. Abdul Rasheed P"],
+    "program": "PhD"
+  },  
+ {
     "name": "Anna Rose Antony",
     "image": "images/students/anna.jpg",
     "qualification": "M.Tech Bioinformatics",
     "institution": "MANIT Bhopal",
     "year": 2025,
     "area": "DNA - Protein Interaction ",
-    "supervisor": "Dr.Prasun Kumar",
+    "supervisor": ["Dr.Prasun Kumar"],
     "program": "PhD (HTRA)"
   },
  {
@@ -16,7 +26,7 @@
     "institution": "University of Mysore",
     "year": 2025,
     "area": "Molecular virology",
-    "supervisor": "Dr. Prasanna Bhat",
+    "supervisor": ["Dr. Prasanna Bhat"],
     "program": "PhD (HTRA)"
   },
  {
@@ -26,7 +36,7 @@
     "institution": "Amrita School of Nanoscience and Molecular Medicine, Kochi",
     "year": 2025,
     "area": "ncRNAs in Cancer",
-    "supervisor": "Dr. Sivakumar Vadivel Gnanasundram",
+    "supervisor": ["Dr. Sivakumar Vadivel Gnanasundram"],
     "program": "PhD (HTRA)" 
 },
  {
@@ -36,7 +46,7 @@
     "institution": "BITS Pilani - Hyderabad",
     "year": 2025,
     "area": "RBPs in Cancer",
-    "supervisor": "Dr. Sivakumar Vadivel Gnanasundaram",
+    "supervisor": ["Dr. Sivakumar Vadivel Gnanasundram"],
     "program": "PhD (HTRA)"
   },
  {
@@ -46,7 +56,7 @@
     "institution": "NIT Warangal",
     "year": 2023,
     "area": "Electrochemical Biosensors",
-    "supervisor": "Dr. Abdul Rasheed P",
+    "supervisor": ["Dr. Abdul Rasheed P"],
     "program": "PhD (HTRA)"
   },
  {
@@ -56,7 +66,7 @@
     "institution": "SCET, Thrissur",
     "year": 2025,
     "area": "Biosensors and Biomedical Point of Care Applications",
-    "supervisor": "Dr. Abdul Rasheed P",
+    "supervisor": ["Dr. Abdul Rasheed P"],
     "program": "M.S (by research)"
   },
  {
@@ -66,7 +76,17 @@
     "institution": "University of Hyderabad",
     "year": 2024 ,
     "area": "Post translational modifications in diabetes",
-    "supervisor": "Dr. Sushabhan Sadhukhan",
+    "supervisor": ["Dr. Sushabhan Sadhukhan"],
     "program": "PhD"
+  },
+ {
+    "name": "Pallavi PV",
+    "image": "images/students/pallavipv.jpg",
+    "qualification": "M.Sc. Microbiology",
+    "institution": "University of Mysore",
+    "year": 2025,
+    "area": "Immunology, Immunotherapy",
+    "supervisor": "Prof. Jagadeesh Bayry",
+    "program": "PhD (CSIR)"
   }
 ]
