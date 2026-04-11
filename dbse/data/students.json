@@ -18,5 +18,15 @@
     "area": "Structural Dynamics of Viral Proteins",
     "supervisor": "Dr. Prasanna Bhat",
     "program": "M.Tech"
+  },
+ {
+    "name": "Anna Rose Antony",
+    "image": "images/students/anna.jpg",
+    "qualification": "M.Tech Bioinformatics",
+    "institution": "MANIT Bhopal",
+    "year": 2025,
+    "area": "DNA - Protein Interaction ",
+    "supervisor": "Dr.Prasun Kumar",
+    "program": "PhD"
   }
 ]
