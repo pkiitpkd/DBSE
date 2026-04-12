@@ -86,7 +86,7 @@
     "institution": "University of Mysore",
     "year": 2025,
     "area": "Immunology, Immunotherapy",
-    "supervisor": "Prof. Jagadeesh Bayry",
+    "supervisor": ["Prof. Jagadeesh Bayry"],
     "program": "PhD (CSIR)"
   },
  {
@@ -96,7 +96,7 @@
     "institution": "University of Mysore",
     "year": 2025,
     "area": "Molecular Virology",
-    "supervisor": "Dr. Prasanna Bhat",
+    "supervisor": ["Dr. Prasanna Bhat"],
     "program": "PhD (HTRA)"
   },
  {
@@ -106,7 +106,27 @@
     "institution": "Aquinas College Edakochi",
     "year": 2025,
     "area": "Molecular virology",
-    "supervisor": "Dr. Prasanna Bhat",
+    "supervisor": ["Dr. Prasanna Bhat"],
     "program": "PhD (CSIR)"
+  },
+ {
+    "name": "Sukanya Bordoloi",
+    "image": "images/students/sukanya.jpg",
+    "qualification": "M.Sc. Biochemistry",
+    "institution": "Savitribai Phule Pune University",
+    "year": 2021,
+    "area": "Immune response in infectious diseases",
+    "supervisor": ["Prof. Jagadeesh Bayry"],
+    "program": "PhD (HTRA)"
+  }.
+ {
+    "name": "Suraj Chandrabhan Singh",
+    "image": "images/students/suraj.jpg",
+    "qualification": "M.Sc. Biophysics",
+    "institution": "University of Mumbai",
+    "year": 2022,
+    "area": "Study of immune dysregulation in post covid Inflamatory and autoimmune diseases and various therapy response",
+    "supervisor": ["Prof. Jagadeesh Bayry"],
+    "program": "PhD (HTRA)"
   }
 ]
