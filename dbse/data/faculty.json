@@ -43,12 +43,12 @@
     {
         "id": 5,
         "name": "Dr. Sushabhan Sadhukhan",
-        "category": "secondary",
+        "category": "Secondary",
         "role": "Associate Professor",
         "email": "sushabhan@iitpkd.ac.in",
         "image": "images/SS.jpg",
-        "field": "Chemical Biology",
-        "bio": "Expert in chemical biology and the development of bioactive molecules."
+        "field": "Chemical biology, Drug discovery, Protein PTMs, Metabolomics and proteomics, Antimicrobial resistance (AMR)",
+        "bio": "Dr. Sushabhan Sadhukhan leads an interdisciplinary research group at IIT Palakkad in the Department of Chemistry, with a secondary affiliation to Biological Sciences & Engineering. His research is centered on understanding and modulating biological systems through a chemical biology framework, combining enzymology, multi-omics, and synthetic approaches to investigate the mechanisms of bioactive natural products. By integrating molecular design with nanotechnology and systems-level analyses, his lab develops next-generation antimicrobial agents and targeted molecular therapeutics. Additionally, his research explores the functional role of protein post-translational modifications (PTMs) in regulating cellular signaling and disease progression, with an emphasis on translating mechanistic insights into biologically relevant and clinically impactful solutions."
     },
     {
         "id": 6,
