@@ -16,12 +16,8 @@
         .active-link { color: #4f46e5; border-bottom: 2px solid #4f46e5; }
         .section-divider { position: relative; padding-bottom: 1rem; margin-bottom: 2.5rem; }
         .section-divider::after { content: ''; position: absolute; left: 0; bottom: 0; width: 50px; height: 4px; background: #4f46e5; border-radius: 2px; }
-        
-        /* Dropdown */
         .dropdown:hover .dropdown-menu { display: block; }
         .dropdown-menu { display: none; z-index: 100; min-width: 220px; }
-        
-        /* Image Hover Overlay */
         .person-card:hover .hover-overlay { opacity: 1; transform: translateY(0); }
         .hover-overlay { opacity: 0; transform: translateY(10px); transition: all 0.3s ease-in-out; }
     </style>
@@ -72,7 +68,7 @@
             <div class="max-w-6xl mx-auto px-4 py-20 text-left" id="hod-container"></div>
         </section>
 
-        <!-- Faculty Directory (3 Columns for Large Rectangles) -->
+        <!-- FACULTY DIRECTORY -->
         <section id="faculty" class="page-section max-w-7xl mx-auto px-4 py-16 text-left">
             <h2 class="text-4xl font-black mb-16 tracking-tight text-slate-900">Faculty Directory</h2>
             <div class="mb-24"><h3 class="text-2xl font-bold text-slate-800 section-divider">Core Faculty</h3><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12" id="core-faculty-grid"></div></div>
@@ -114,8 +110,8 @@
 
         <section id="publications" class="page-section max-w-5xl mx-auto px-4 py-16 text-left">
             <div class="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
-                <div><h2 class="text-4xl font-black tracking-tight text-slate-900">Publications</h2><p class="text-slate-500 mt-2">Department research output.</p></div>
-                <div class="w-full md:w-auto"><label class="text-[10px] font-bold text-slate-400 uppercase mb-1 block text-left">Filter by Faculty</label>
+                <div><h2 class="text-4xl font-black tracking-tight text-slate-900">Publications</h2><p class="text-slate-500 mt-2">Browse department research output.</p></div>
+                <div class="w-full md:w-auto text-left"><label class="text-[10px] font-bold text-slate-400 uppercase mb-1 block text-left">Filter by Author</label>
                     <select id="pub-faculty-filter" onchange="renderPublications()" class="w-full bg-white border border-slate-200 rounded-xl px-4 py-2.5 text-sm outline-none min-w-[220px]"></select>
                 </div>
             </div>
@@ -151,7 +147,7 @@
                 db = { faculty: f, students: s, postdocs: p, equipment: e, publications: pub, alumni: a, staffs: st };
                 setupFilters();
                 renderAll();
-            } catch (err) { console.error("Data Load Error:", err); }
+            } catch (err) { console.error("Init Error:", err); }
         }
 
         function showPage(id) {
@@ -165,10 +161,8 @@
             const sFilter = document.getElementById('student-supervisor-filter');
             const pFilter = document.getElementById('pub-faculty-filter');
             if(!sFilter || !pFilter) return;
-
             sFilter.innerHTML = '<option value="all">All Supervisors</option>';
             pFilter.innerHTML = '<option value="all">All Faculty</option>';
-            
             const supervisors = new Set();
             [...db.students, ...db.postdocs].forEach(r => {
                 if (Array.isArray(r.supervisor)) r.supervisor.forEach(sup => supervisors.add(sup));
@@ -199,7 +193,7 @@
                     <p class="text-[11px] font-black text-indigo-500 uppercase tracking-[0.15em] mb-4">${r.program || ''}</p>
                     <p class="text-[10px] text-slate-400 font-bold mb-6 italic text-left">Lab: ${sups}</p>
                     <div class="pt-6 border-t border-slate-50 text-left">
-                        <p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest leading-none mb-2">Qualification</p>
+                        <p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest leading-none mb-2 text-left">Qualification</p>
                         <p class="text-sm font-bold text-slate-700 leading-tight">${r.qualification || '-'}</p>
                         <p class="text-[11px] font-semibold text-slate-400 mt-2 italic text-left">${r.institution || '-'}</p>
                     </div>
@@ -245,7 +239,7 @@
                         <div class="md:w-2/3 p-12 lg:p-20 flex flex-col justify-center text-left">
                             <div class="text-indigo-600 mb-8"><i data-lucide="quote" class="w-16 h-16 opacity-20"></i></div>
                             <h2 class="text-3xl font-black mb-8 uppercase tracking-tighter text-slate-800 leading-none text-left">Message from the HoD</h2>
-                            <p class="text-slate-600 mb-10 italic text-xl leading-relaxed text-justify whitespace-pre-line">${hod.message || 'Vision statement...'}</p>
+                            <p class="text-slate-600 mb-10 italic text-xl leading-relaxed text-justify whitespace-pre-line">${hod.message || 'Vision Statement'}</p>
                             <div class="border-t border-slate-100 pt-8"><p class="font-black text-xl text-slate-900 text-left">${hod.name}</p><p class="text-xs text-slate-400 font-bold uppercase tracking-widest mt-1 text-left">Head of Department</p></div>
                         </div>
                     </div>`;
@@ -262,7 +256,7 @@
                             <h3 class="font-black text-slate-800 leading-tight text-2xl group-hover:text-indigo-600 transition-colors text-left">${f.name}</h3>
                             <p class="text-indigo-600 text-[11px] font-black uppercase tracking-widest mt-2 text-left">${f.role}</p>
                             <p class="text-slate-400 text-[11px] font-bold mt-4 border-t border-slate-50 pt-4 text-left lowercase">${f.qualification || ''}</p>
-                            <p class="text-slate-500 text-[10px] lowercase font-medium mt-1 text-left">${f.field.toLowerCase()}</p>
+                            <p class="text-slate-700 text-sm font-semibold mt-2 text-left">${f.field.toLowerCase()}</p>
                         </div>
                     </div>`).join('');
             };
@@ -271,7 +265,6 @@
             renderFGrid('fellow-faculty-grid', 'fellow');
 
             document.getElementById('postdoc-grid').innerHTML = db.postdocs.map(createPersonnelCard).join('');
-            
             document.getElementById('staff-grid').innerHTML = db.staffs.map(r => `
                 <div class="bg-white rounded-[3rem] overflow-hidden border border-slate-100 shadow-sm hover:shadow-xl transition-all group">
                     <div class="relative h-96 bg-slate-50 flex items-center justify-center overflow-hidden">
@@ -280,10 +273,7 @@
                     <div class="p-10 text-left">
                         <h3 class="font-black text-slate-800 text-xl leading-tight mb-2 text-left">${r.name}</h3>
                         <p class="text-[11px] font-black text-indigo-500 uppercase tracking-widest mb-4 text-left">${r.role}</p>
-                        <div class="pt-6 border-t border-slate-50 text-left">
-                            <p class="text-sm font-bold text-slate-700 text-left">${r.qualification || '-'}</p>
-                            <p class="text-[11px] font-semibold text-slate-400 mt-1 italic text-left">${r.institution || ''}</p>
-                        </div>
+                        <div class="pt-6 border-t border-slate-50 text-left"><p class="text-sm font-bold text-slate-700 text-left">${r.qualification || '-'}</p><p class="text-[11px] font-semibold text-slate-400 mt-1 italic text-left">${r.institution || ''}</p></div>
                     </div>
                 </div>`).join('');
 
@@ -324,21 +314,17 @@
                                 <h2 class="text-2xl font-black text-slate-900 tracking-tighter leading-none text-left">${f.name}</h2>
                                 <p class="text-indigo-600 font-bold mt-4 italic uppercase text-[11px] tracking-[0.2em] text-left">${f.role}</p>
                                 <p class="text-slate-500 text-sm font-bold mt-1 text-left">${f.qualification || ''}</p>
-                                <p class="text-slate-400 text-xs mt-2 lowercase font-medium tracking-tight border-t border-slate-100 pt-2 text-left">${f.field.toLowerCase()}</p>
+                                <p class="text-slate-700 text-base font-semibold mt-3 lowercase border-t border-slate-100 pt-3 text-left">${f.field.toLowerCase()}</p>
                             </div>
                         </div>
                         <div class="grid grid-cols-1 lg:grid-cols-3 gap-16 pt-12 border-t border-slate-100 text-left">
                             <div class="lg:col-span-2 text-left">
-                                <h4 class="text-xl font-black text-slate-900 mb-6 flex items-center text-left"><i data-lucide="book-open" class="w-5 h-5 mr-4 text-indigo-600"></i> Biography</h4>
+                                <h4 class="text-2xl font-black text-slate-900 mb-6 flex items-center text-left"><i data-lucide="book-open" class="w-6 h-6 mr-4 text-indigo-600"></i> Biography</h4>
                                 <p class="text-slate-600 leading-relaxed text-lg mb-16 whitespace-pre-line text-justify text-left">${f.bio}</p>
-                                <h4 class="text-xl font-black text-slate-900 mb-8 flex items-center text-left"><i data-lucide="award" class="w-6 h-6 mr-4 text-indigo-600"></i> Recent Publications</h4>
-                                <div class="space-y-4 mb-16 text-left">
-                                    ${labPubs.map(p => `<div class="p-6 bg-slate-50 rounded-3xl border border-slate-100 hover:border-indigo-200 transition-all group text-left"><p class="font-bold text-slate-800 leading-snug text-left">${p.title}</p><div class="flex items-center gap-4 mt-3 text-left"><p class="text-indigo-500 text-[10px] uppercase font-black tracking-widest text-left">${p.journal}</p><span class="text-[10px] text-slate-400 font-bold">${p.year}</span></div></div>`).join('')}
-                                </div>
-                                <h4 class="text-xl font-black text-slate-900 mb-8 flex items-center text-left"><i data-lucide="users" class="w-6 h-6 mr-4 text-indigo-600"></i> Lab Members</h4>
-                                <div class="grid grid-cols-1 sm:grid-cols-2 gap-5 text-left">
-                                    ${labPersonnel.map(r => `<div class="bg-white p-6 rounded-3xl border border-slate-100 shadow-sm flex items-center text-left hover:shadow-md transition-shadow"><div class="bg-indigo-50 text-indigo-600 p-3 rounded-2xl mr-5"><i data-lucide="graduation-cap" class="w-5 h-5"></i></div><div class="text-left"><p class="font-bold text-slate-800 leading-tight text-lg text-left">${r.name}</p><p class="text-indigo-500 text-[10px] uppercase font-black tracking-widest mt-1 text-left">${r.program} (${r.year})</p></div></div>`).join('')}
-                                </div>
+                                <h4 class="text-2xl font-black text-slate-900 mb-8 flex items-center text-left"><i data-lucide="award" class="w-6 h-6 mr-4 text-indigo-600"></i> Recent Publications</h4>
+                                <div class="space-y-4 mb-16 text-left">${labPubs.map(p => `<div class="p-6 bg-slate-50 rounded-3xl border border-slate-100 hover:border-indigo-200 transition-all group text-left"><p class="font-bold text-slate-800 leading-snug text-left">${p.title}</p><div class="flex items-center gap-4 mt-3 text-left"><p class="text-indigo-500 text-[10px] uppercase font-black tracking-widest text-left">${p.journal}</p><span class="text-[10px] text-slate-400 font-bold">${p.year}</span></div></div>`).join('')}</div>
+                                <h4 class="text-2xl font-black text-slate-900 mb-8 flex items-center text-left"><i data-lucide="users" class="w-6 h-6 mr-4 text-indigo-600"></i> Lab Members</h4>
+                                <div class="grid grid-cols-1 sm:grid-cols-2 gap-5 text-left">${labPersonnel.map(r => `<div class="bg-white p-6 rounded-3xl border border-slate-100 shadow-sm flex items-center text-left hover:shadow-md transition-shadow"><div class="bg-indigo-50 text-indigo-600 p-3 rounded-2xl mr-5"><i data-lucide="graduation-cap" class="w-5 h-5"></i></div><div class="text-left"><p class="font-bold text-slate-800 leading-tight text-lg text-left">${r.name}</p><p class="text-indigo-500 text-[10px] uppercase font-black tracking-widest mt-1 text-left">${r.program} (${r.year})</p></div></div>`).join('')}</div>
                             </div>
                             <div class="text-left">
                                 <div class="bg-slate-900 p-10 rounded-[3rem] sticky top-24 shadow-2xl text-white text-left">
