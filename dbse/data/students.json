@@ -146,7 +146,7 @@
     "institution": "Amrita Centre for Nanosciences and Molecular Medicine",
     "year": 2020,
     "area": "Experimental Biophysics and Physics of Cancer",
-    "supervisor": "Dr. Bibhu Ranjan Sarangi",
+    "supervisor": ["Dr. Bibhu Ranjan Sarangi"],
     "program": "PhD (HTRA)"
   }
 ]
