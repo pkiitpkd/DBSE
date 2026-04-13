@@ -8,5 +8,15 @@
     "area": "Nanomedicine, drug delivery & In silico Nanomedicine design",
     "supervisor": ["Prof. Jagadeesh Bayry"],
     "program": "Post doctorate (Institute Postdoctoral Fellowship)"
+  },
+  {
+    "name": "Meera Menon T P",
+    "image": "images/students/meeramenontp.jpg",
+    "qualification": "PhD",
+    "institution": "Cochin University of Science and Technology",
+    "year": 2025,
+    "area": "Drug delivery systems, nanomaterials, autoimmune diseases, immunotherapy",
+    "supervisor": ["Prof. Jagadeesh Bayry"],
+    "program": "NPDF (ANRF)"
   }
 ]
