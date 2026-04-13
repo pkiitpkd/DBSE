@@ -17,11 +17,9 @@
         .section-divider { position: relative; padding-bottom: 1rem; margin-bottom: 2.5rem; }
         .section-divider::after { content: ''; position: absolute; left: 0; bottom: 0; width: 50px; height: 4px; background: #4f46e5; border-radius: 2px; }
         
-        /* Dropdown */
         .dropdown:hover .dropdown-menu { display: block; }
         .dropdown-menu { display: none; z-index: 100; min-width: 220px; }
         
-        /* Image Hover Overlay */
         .person-card:hover .hover-overlay { opacity: 1; transform: translateY(0); }
         .hover-overlay { opacity: 0; transform: translateY(10px); transition: all 0.3s ease-in-out; }
     </style>
@@ -46,11 +44,11 @@
                     <div class="dropdown relative py-6">
                         <button class="nav-btn flex items-center text-sm font-bold text-slate-600 hover:text-indigo-600 transition-colors">People <i data-lucide="chevron-down" class="ml-1 w-4 h-4"></i></button>
                         <div class="dropdown-menu absolute top-full left-0 bg-white border border-slate-100 shadow-2xl rounded-2xl py-2 overflow-hidden animate-fadeIn">
-                            <button onclick="showPage('faculty')" class="w-full text-left px-5 py-3 text-xs font-bold text-slate-600 hover:bg-slate-50 hover:text-indigo-600 border-b border-slate-50 transition-colors">Faculties</button>
-                            <button onclick="showPage('students')" class="w-full text-left px-5 py-3 text-xs font-bold text-slate-600 hover:bg-slate-50 hover:text-indigo-600 border-b border-slate-50 transition-colors">Students</button>
-                            <button onclick="showPage('postdocs')" class="w-full text-left px-5 py-3 text-xs font-bold text-slate-600 hover:bg-slate-50 hover:text-indigo-600 border-b border-slate-50 transition-colors">Postdocs</button>
-                            <button onclick="showPage('staffs')" class="w-full text-left px-5 py-3 text-xs font-bold text-slate-600 hover:bg-slate-50 hover:text-indigo-600 border-b border-slate-50 transition-colors">Staffs</button>
-                            <button onclick="showPage('alumni')" class="w-full text-left px-5 py-3 text-xs font-bold text-slate-600 hover:bg-slate-50 hover:text-indigo-600 transition-colors">Alumni</button>
+                            <button onclick="showPage('faculty')" class="w-full text-left px-5 py-3 text-xs font-bold text-slate-600 hover:bg-slate-50 hover:text-indigo-600 border-b border-slate-50">Faculties</button>
+                            <button onclick="showPage('students')" class="w-full text-left px-5 py-3 text-xs font-bold text-slate-600 hover:bg-slate-50 hover:text-indigo-600 border-b border-slate-50">Students</button>
+                            <button onclick="showPage('postdocs')" class="w-full text-left px-5 py-3 text-xs font-bold text-slate-600 hover:bg-slate-50 hover:text-indigo-600 border-b border-slate-50">Postdocs</button>
+                            <button onclick="showPage('staffs')" class="w-full text-left px-5 py-3 text-xs font-bold text-slate-600 hover:bg-slate-50 hover:text-indigo-600 border-b border-slate-50">Staffs</button>
+                            <button onclick="showPage('alumni')" class="w-full text-left px-5 py-3 text-xs font-bold text-slate-600 hover:bg-slate-50 hover:text-indigo-600">Alumni</button>
                         </div>
                     </div>
                     <button onclick="showPage('publications')" class="nav-btn py-2 text-sm font-bold text-slate-600 hover:text-indigo-600 transition-colors">Publications</button>
@@ -61,6 +59,7 @@
     </nav>
 
     <main>
+        <!-- HOME SECTION -->
         <section id="home" class="page-section active">
             <div class="relative h-[400px] flex items-center justify-center bg-slate-900">
                 <img src="https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&q=80&w=2000" class="absolute inset-0 w-full h-full object-cover opacity-30">
@@ -72,12 +71,12 @@
             <div class="max-w-6xl mx-auto px-4 py-20 text-left" id="hod-container"></div>
         </section>
 
-        <!-- Faculty Directory (3 Columns for Large Rectangles) -->
+        <!-- FACULTY DIRECTORY -->
         <section id="faculty" class="page-section max-w-7xl mx-auto px-4 py-16 text-left">
             <h2 class="text-4xl font-black mb-16 tracking-tight text-slate-900">Faculty Directory</h2>
-            <div class="mb-24"><h3 class="text-2xl font-bold text-slate-800 section-divider">Core Faculty</h3><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12" id="core-faculty-grid"></div></div>
-            <div class="mb-24"><h3 class="text-2xl font-bold text-slate-800 section-divider">Secondary Affiliated Faculty</h3><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12" id="secondary-faculty-grid"></div></div>
-            <div class="mb-24"><h3 class="text-2xl font-bold text-slate-800 section-divider">Faculty Fellows</h3><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12" id="fellow-faculty-grid"></div></div>
+            <div class="mb-24 text-left"><h3 class="text-2xl font-bold text-slate-800 section-divider">Core Faculty</h3><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12" id="core-faculty-grid"></div></div>
+            <div class="mb-24 text-left"><h3 class="text-2xl font-bold text-slate-800 section-divider">Secondary Affiliated Faculty</h3><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12" id="secondary-faculty-grid"></div></div>
+            <div class="mb-24 text-left"><h3 class="text-2xl font-bold text-slate-800 section-divider">Faculty Fellows</h3><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12" id="fellow-faculty-grid"></div></div>
         </section>
 
         <section id="profile" class="page-section max-w-5xl mx-auto px-4 py-16 text-left">
@@ -90,7 +89,7 @@
         <section id="students" class="page-section max-w-7xl mx-auto px-4 py-16 text-left">
             <div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
                 <div><h2 class="text-4xl font-black tracking-tight text-slate-900">Research Scholars</h2><p class="text-slate-500 mt-2">Hover over photos to view research area.</p></div>
-                <div class="w-full md:w-auto"><label class="text-[10px] font-bold text-slate-400 uppercase mb-1 block">Filter by Lab</label>
+                <div class="w-full md:w-auto text-left"><label class="text-[10px] font-bold text-slate-400 uppercase mb-1 block">Filter by Lab</label>
                     <select id="student-supervisor-filter" onchange="renderStudents()" class="w-full bg-white border border-slate-200 rounded-xl px-4 py-3 text-sm outline-none shadow-sm min-w-[280px]"></select>
                 </div>
             </div>
@@ -108,14 +107,14 @@
         </section>
 
         <section id="alumni" class="page-section max-w-7xl mx-auto px-4 py-16 text-left">
-            <h2 class="text-4xl font-black mb-12 tracking-tight text-slate-900">Alumni Network</h2>
+            <h2 class="text-4xl font-black mb-12 tracking-tight">Alumni Network</h2>
             <div id="alumni-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"></div>
         </section>
 
         <section id="publications" class="page-section max-w-5xl mx-auto px-4 py-16 text-left">
-            <div class="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-12 gap-6 text-left">
                 <div><h2 class="text-4xl font-black tracking-tight text-slate-900">Publications</h2><p class="text-slate-500 mt-2">Department research output.</p></div>
-                <div class="w-full md:w-auto text-left"><label class="text-[10px] font-bold text-slate-400 uppercase mb-1 block text-left">Filter by Author</label>
+                <div class="w-full md:w-auto"><label class="text-[10px] font-bold text-slate-400 uppercase mb-1 block text-left">Filter by Author</label>
                     <select id="pub-faculty-filter" onchange="renderPublications()" class="w-full bg-white border border-slate-200 rounded-xl px-4 py-2.5 text-sm outline-none min-w-[220px]"></select>
                 </div>
             </div>
@@ -138,9 +137,9 @@
 
         async function init() {
             try {
-                // Fixed fetch URLs by removing leading dot for wider compatibility and adding origin-relative construction
                 const ts = new Date().getTime();
-                const baseUrl = window.location.href.substring(0, window.location.href.lastIndexOf('/') + 1);
+                const currentUrl = window.location.href;
+                const baseUrl = currentUrl.substring(0, currentUrl.lastIndexOf('/') + 1);
                 
                 const fetchJson = async (path) => {
                     const response = await fetch(new URL(path + '?t=' + ts, baseUrl).toString());
@@ -163,7 +162,6 @@
                 renderAll();
             } catch (err) { 
                 console.error("Data Load Error:", err); 
-                // Render with current db (might be empty) if error occurs
                 renderAll();
             }
         }
@@ -198,21 +196,21 @@
             const sups = Array.isArray(r.supervisor) ? r.supervisor.join(' & ') : (r.supervisor || '-');
             return `
             <div class="bg-white rounded-[3rem] overflow-hidden border border-slate-100 shadow-sm hover:shadow-2xl transition-all group person-card">
-                <div class="relative h-[450px] bg-slate-50 flex items-center justify-center overflow-hidden">
-                    <img src="${r.image}" class="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-700" onerror="this.src='https://via.placeholder.com/600x800?text=Personnel'">
+                <div class="relative h-[450px] bg-slate-50 flex items-end justify-center overflow-hidden">
+                    <img src="${r.image}" class="max-h-full max-w-full object-contain object-bottom group-hover:scale-105 transition-transform duration-700" onerror="this.src='https://via.placeholder.com/600x800?text=Personnel'">
                     <div class="absolute inset-0 bg-indigo-900/90 backdrop-blur-sm p-10 flex flex-col justify-center text-center hover-overlay">
                         <h4 class="text-indigo-300 text-[11px] font-black uppercase tracking-[0.2em] mb-4">Research Area</h4>
                         <p class="text-white text-base font-medium italic">"${r.area || 'Biological Sciences'}"</p>
                     </div>
                     <div class="absolute bottom-6 right-6 bg-indigo-600 text-white px-4 py-1.5 rounded-full shadow-lg border border-white/20"><span class="text-[10px] font-black uppercase tracking-tighter">Since ${r.year}</span></div>
                 </div>
-                <div class="pt-4 px-8 pb-8 text-left">
+                <div class="pt-2 px-8 pb-8 text-left">
                     <h3 class="font-black text-slate-800 text-xl leading-tight mb-1">${r.name}</h3>
-                    <p class="text-[11px] font-black text-indigo-500 uppercase tracking-[0.15em] mb-3">${r.program || ''}</p>
+                    <p class="text-[11px] font-black text-indigo-500 uppercase tracking-[0.15em] mb-2">${r.program || ''}</p>
                     <p class="text-[10px] text-slate-400 font-bold mb-4 italic text-left">Lab: ${sups}</p>
                     <div class="pt-4 border-t border-slate-50 text-left">
-                        <p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest leading-none mb-1">Qualification</p>
-                        <p class="text-sm font-bold text-slate-700 leading-tight">${r.qualification || '-'}</p>
+                        <p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest leading-none mb-1 text-left">Qualification</p>
+                        <p class="text-sm font-bold text-slate-700 leading-tight text-left">${r.qualification || '-'}</p>
                         <p class="text-[11px] font-semibold text-slate-400 mt-1 italic text-left">${r.institution || '-'}</p>
                     </div>
                 </div>
@@ -269,14 +267,14 @@
                 if (container) {
                     container.innerHTML = filtered.map(f => `
                         <div onclick="openProfile(${f.id})" class="bg-white overflow-hidden rounded-[3rem] shadow-sm hover:shadow-2xl transition-all cursor-pointer border border-slate-100 group text-left">
-                            <div class="relative h-[500px] bg-slate-50 flex items-center justify-center overflow-hidden">
-                                <img src="${f.image}" class="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-700" onerror="this.src='https://via.placeholder.com/600x800?text=Faculty'">
+                            <div class="relative h-[500px] bg-slate-50 flex items-end justify-center overflow-hidden">
+                                <img src="${f.image}" class="max-h-full max-w-full object-contain object-bottom group-hover:scale-105 transition-transform duration-700" onerror="this.src='https://via.placeholder.com/600x800?text=Faculty'">
                             </div>
-                            <div class="pt-4 px-8 pb-8 text-left">
-                                <h3 class="font-black text-slate-800 leading-tight text-xl group-hover:text-indigo-600 transition-colors text-left">${f.name}</h3>
-                                <p class="text-indigo-600 text-[11px] font-black uppercase tracking-widest mt-1 text-left">${f.role}</p>
-                                <p class="text-slate-500 text-[11px] font-bold mt-3 border-t border-slate-50 pt-3 text-left lowercase">${f.qualification || ''}</p>
-                                <p class="text-slate-700 text-base font-semibold mt-1 text-left">${f.field.toLowerCase()}</p>
+                            <div class="pt-1 px-8 pb-8 text-left">
+                                <h3 class="font-black text-slate-800 leading-tight text-xl group-hover:text-indigo-600 transition-colors text-left mb-0.5">${f.name}</h3>
+                                <p class="text-indigo-600 text-[11px] font-black uppercase tracking-widest text-left leading-none mb-2">${f.role}</p>
+                                <p class="text-slate-500 text-[11px] font-bold border-t border-slate-50 pt-2 text-left lowercase leading-tight mb-1">${f.qualification || ''}</p>
+                                <p class="text-slate-700 text-base font-semibold text-left leading-tight">${f.field.toLowerCase()}</p>
                             </div>
                         </div>`).join('');
                 }
@@ -291,14 +289,14 @@
             const staffGrid = document.getElementById('staff-grid');
             if (staffGrid) {
                 staffGrid.innerHTML = db.staffs.map(r => `
-                    <div class="bg-white rounded-[3rem] overflow-hidden border border-slate-100 shadow-sm hover:shadow-xl transition-all group">
-                        <div class="relative h-96 bg-slate-50 flex items-center justify-center overflow-hidden">
-                            <img src="${r.image}" class="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-700" onerror="this.src='https://via.placeholder.com/400'">
+                    <div class="bg-white rounded-[3rem] overflow-hidden border border-slate-100 shadow-sm hover:shadow-xl transition-all group text-left">
+                        <div class="relative h-96 bg-slate-50 flex items-end justify-center overflow-hidden text-left">
+                            <img src="${r.image}" class="max-h-full max-w-full object-contain object-bottom group-hover:scale-105 transition-transform duration-700" onerror="this.src='https://via.placeholder.com/400'">
                         </div>
-                        <div class="pt-4 px-8 pb-8 text-center">
-                            <h3 class="font-black text-slate-800 text-lg leading-tight mb-1">${r.name}</h3>
-                            <p class="text-[11px] font-black text-indigo-500 uppercase tracking-widest mb-3 text-center">${r.role}</p>
-                            <div class="pt-4 border-t border-slate-50 text-center"><p class="text-sm font-bold text-slate-700 text-center">${r.qualification || '-'}</p><p class="text-[11px] font-semibold text-slate-400 mt-1 italic text-center">${r.institution || ''}</p></div>
+                        <div class="pt-2 px-8 pb-8 text-left">
+                            <h3 class="font-black text-slate-800 text-lg leading-tight mb-1 text-left">${r.name}</h3>
+                            <p class="text-[11px] font-black text-indigo-500 uppercase tracking-widest mb-3 text-left leading-none">${r.role}</p>
+                            <div class="pt-3 border-t border-slate-50 text-left"><p class="text-sm font-bold text-slate-700 text-left leading-tight">${r.qualification || '-'}</p><p class="text-[11px] font-semibold text-slate-400 mt-1 italic text-left">${r.institution || ''}</p></div>
                         </div>
                     </div>`).join('');
             }
