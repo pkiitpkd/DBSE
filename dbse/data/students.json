@@ -128,5 +128,25 @@
     "area": "Study of immune dysregulation in post covid Inflamatory and autoimmune diseases and various therapy response",
     "supervisor": ["Prof. Jagadeesh Bayry"],
     "program": "PhD (HTRA)"
+  },
+ {
+    "name": "Haritha M",
+    "image": "images/students/haritham.jpg",
+    "qualification": "M.Sc. Biotechnology",
+    "institution": "Amrita Vishwa Vidyapeetham",
+    "year": 2020,
+    "area": "Designing Drug Delivery System using Nanomaterials",
+    "supervisor": ["Prof. Jagadeesh Bayry", "Dr. Abdul Rasheed P"],
+    "program": "PhD (HTRA)"
+  },
+ {
+    "name": "Athira Krishnan",
+    "image": "images/students/Athirakrishnan.jpg",
+    "qualification": "M.Sc. Molecular Medicine",
+    "institution": "Amrita Centre for Nanosciences and Molecular Medicine",
+    "year": 2020,
+    "area": "Experimental Biophysics and Physics of Cancer",
+    "supervisor": "Dr. Bibhu Ranjan Sarangi",
+    "program": "PhD (HTRA)"
   }
 ]
