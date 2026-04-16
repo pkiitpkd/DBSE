@@ -10,6 +10,16 @@
     "program": "PhD (HTRA)"
   },  
  {
+    "name": "Kirubakar. S",
+     "image": "images/students/kirubakar.jpeg",
+    "qualification": "M.Sc. Biotechnology",
+    "institution": "University of Hyderabad",
+    "year": 2025,
+    "area": "Molecular Virology",
+    "supervisor": ["Dr. Prasanna Bhat"],
+    "program": "Junior Research Fellow"
+ },
+ {
     "name": "Anna Rose Antony",
     "image": "images/students/anna.jpg",
     "qualification": "M.Tech Bioinformatics",
